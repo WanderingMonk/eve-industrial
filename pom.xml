@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.arrggh.eve</groupId>
+    <artifactId>eve-industrial</artifactId>
+    <packaging>pom</packaging>
+
+    <version>0.1-SNAPSHOT</version>
+
+    <name>EVE Online: Industrial Management Software</name>
+
+    <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+      <java.version>1.8</java.version>
+      <junit.version>4.12</junit.version>
+    </properties>
+
+    <modules>
+      <module>eve-api-xml</module>
+      <module>eve-api-sde</module>
+      <module>eve-api-yaml</module>
+      <module>eve-api-crest</module>
+      <module>database</module>
+      <module>model</module>
+      <module>utilities</module>
+    </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

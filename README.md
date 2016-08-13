@@ -1,2 +1,2 @@
 # eve-industrial
-Eve Online: Industrial Helper Application
+EVE Online: Industrial Helper Application
