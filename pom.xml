@@ -13,19 +13,22 @@
     <name>EVE Online: Industrial Management Software</name>
 
     <properties>
-      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-      <java.version>1.8</java.version>
-      <junit.version>4.12</junit.version>
+        <java.version>1.8</java.version>
+        <junit.version>4.12</junit.version>
+        <shell.version>1.2.0.RELEASE</shell.version>
+        <version.commons-io>2.5</version.commons-io>
     </properties>
 
     <modules>
-      <module>eve-api-xml</module>
-      <module>eve-api-sde</module>
-      <module>eve-api-yaml</module>
-      <module>eve-api-crest</module>
-      <module>database</module>
-      <module>model</module>
+        <module>eve-api-xml</module>
+        <module>eve-api-sde</module>
+        <module>eve-api-yaml</module>
+        <module>eve-api-crest</module>
+        <module>database</module>
+        <module>model</module>
+        <module>shell</module>  
       <module>utilities</module>
     </modules>
 
@@ -35,23 +38,63 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.5.1</version>
                     <configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>pl.project13.maven</groupId>
+                    <artifactId>git-commit-id-plugin</artifactId>
+                    <version>2.2.1</version>
+                    <executions>
+                        <execution>
+                            <id>get-the-git-infos</id>
+                            <goals>
+                                <goal>revision</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <dotGitDirectory>${project.basedir}/../.git</dotGitDirectory>
+                        <prefix>git</prefix>
+                        <dateFormat>dd.MM.yyyy '@' HH:mm:ss z</dateFormat>
+                        <generateGitPropertiesFile>true</generateGitPropertiesFile>
+                        <format>properties</format>
+                        <failOnUnableToExtractRepoInfo>true</failOnUnableToExtractRepoInfo>
+                        <gitDescribe>
+                            <skip>false</skip>
+                            <abbrev>7</abbrev>
+                            <dirty>-dirty</dirty>
+                            <match>*</match>
+                            <forceLongFormat>false</forceLongFormat>
+                        </gitDescribe>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
 
-<dependencyManagement>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-  </dependencyManagement>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.shell</groupId>
+                <artifactId>spring-shell</artifactId>
+                <version>${shell.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${version.commons-io}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
