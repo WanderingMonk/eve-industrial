@@ -8,8 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Optional;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class FileCacheTest extends BasicCacheTest {
     @Rule
@@ -44,11 +43,15 @@ public class FileCacheTest extends BasicCacheTest {
             }
         };
         cache.put("key", Optional.of("value"));
-        assertEquals(Optional.empty(), cache.get("key"));
-        assertEquals(Optional.empty(), cache.get("key2"));
+        try {
+            cache.get("key");
+            fail("Should have thrown an exception by now");
+        } catch (CacheException e) {
+            assertTrue(true);
+        }
     }
 
-    @Test
+    @Test(expected = CacheException.class)
     public void testFileCacheCanHandleWriteExceptions() throws IOException {
         File directory = folder.newFolder("cache");
         FileCache cache = new FileCache(directory) {
@@ -58,7 +61,6 @@ public class FileCacheTest extends BasicCacheTest {
             }
         };
         cache.put("key", Optional.of("value"));
-        assertEquals(Optional.empty(), cache.get("key"));
-        assertEquals(Optional.empty(), cache.get("key2"));
+        fail("Should have thrown an exception by now");
     }
 }

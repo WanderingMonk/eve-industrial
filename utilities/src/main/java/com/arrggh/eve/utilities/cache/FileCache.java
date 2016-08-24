@@ -21,8 +21,12 @@ public class FileCache implements ICache<String> {
     @Override
     public void put(String key, Optional<String> contents) {
         File entry = new File(cacheDirectory, key);
-        if (not(entry.getParentFile().mkdirs())) {
-            throw new CacheException("Cannot create cached directory: '" + entry + "'");
+
+        File parentDir = entry.getParentFile();
+        if (not(parentDir.exists())) {
+            if (not(parentDir.mkdirs())) {
+                throw new CacheException("Cannot create cached directory: '" + parentDir + "'");
+            }
         }
 
         if (contents.isPresent()) {
@@ -32,8 +36,10 @@ public class FileCache implements ICache<String> {
                 throw new CacheException("Problem writing to cached file", e);
             }
         } else {
-            if (not(entry.delete())) {
-                throw new CacheException("Cannot deleted unwanted cached file: '" + entry + "'");
+            if (entry.exists()) {
+                if (not(entry.delete())) {
+                    throw new CacheException("Cannot deleted unwanted cached file: '" + entry + "'");
+                }
             }
         }
     }
