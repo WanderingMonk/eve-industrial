@@ -63,4 +63,12 @@ public class FileCacheTest extends BasicCacheTest {
         cache.put("key", Optional.of("value"));
         fail("Should have thrown an exception by now");
     }
+
+    @Test(expected = CacheException.class)
+    public void testFileCacheCanHandleUnableToCreateDirectory() throws IOException {
+        folder.newFile("cache"); // Stop being able to create directory
+        FileCache cache = new FileCache(new File(folder.getRoot(), "cache/somedirectory/keyfile"));
+        cache.put("key", Optional.of("value"));
+        fail("Should have thrown an exception by now");
+    }
 }
