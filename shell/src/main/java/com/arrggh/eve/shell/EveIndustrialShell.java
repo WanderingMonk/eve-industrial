@@ -1,11 +1,8 @@
 package com.arrggh.eve.shell;
 
-import java.io.IOException;
-
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
-import org.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ClassPathBeanDefinitionScanner;
 import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.core.type.classreading.MetadataReader;
@@ -18,12 +15,14 @@ import org.springframework.shell.core.ExitShellRequest;
 import org.springframework.shell.core.JLineShellComponent;
 import org.springframework.util.StopWatch;
 
-public class EveIndustrialShell {
-    private static StopWatch sw = new StopWatch("Spring Shell");
-    private static CommandLine commandLine;
-    private GenericApplicationContext ctx;
+import java.io.IOException;
 
-    public EveIndustrialShell(String[] args, String[] contextPath) {
+public class EveIndustrialShell {
+    private final StopWatch sw = new StopWatch("Spring Shell");
+    private final CommandLine commandLine;
+    private final GenericApplicationContext ctx;
+
+    private EveIndustrialShell(String[] args, String[] contextPath) {
         sw.start();
         try {
             commandLine = SimpleShellCommandLineOptions.parseCommandLine(args);
@@ -60,7 +59,7 @@ public class EveIndustrialShell {
         annctx.getBeanFactory().registerSingleton("commandLine", commandLine);
     }
 
-    protected void createAndRegisterBeanDefinition(GenericApplicationContext annctx, Class<?> clazz, String name) {
+    private void createAndRegisterBeanDefinition(GenericApplicationContext annctx, Class<?> clazz, String name) {
         RootBeanDefinition rbd = new RootBeanDefinition();
         rbd.setBeanClass(clazz);
         DefaultListableBeanFactory bf = (DefaultListableBeanFactory) annctx.getBeanFactory();
@@ -71,7 +70,7 @@ public class EveIndustrialShell {
         }
     }
 
-    public ExitShellRequest run() {
+    private ExitShellRequest run() {
         // The shell is used
         JLineShellComponent shell = ctx.getBean("shell", JLineShellComponent.class);
         ExitShellRequest exitShellRequest;

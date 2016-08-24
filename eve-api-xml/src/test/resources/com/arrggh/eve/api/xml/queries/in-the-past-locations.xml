@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+    <result>
+        <currentTime>2016-08-07 11:21:51</currentTime>
+        <rowset name="locations" key="itemID" columns="itemID,itemName,x,y,z">
+            <row itemID="1017795212344" itemName="awesome ship" x="0" y="0" z="0"/>
+            <row itemID="1017795212345" itemName="awesome ship" x="0" y="0" z="0"/>
+            <row itemID="1017795212346" itemName="my container" x="0" y="0" z="0"/>
+        </rowset>
+        <cachedUntil>2000-08-07 15:21:51</cachedUntil>
+    </result>
+</eveapi>

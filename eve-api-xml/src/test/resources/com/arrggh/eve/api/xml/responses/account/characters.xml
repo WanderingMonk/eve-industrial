@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+    <currentTime>2016-08-07 11:21:51</currentTime>
+    <result>
+        <rowset name="characters" key="characterID"
+                columns="name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName">
+            <row name="Hel O'Ween" characterID="1655827332" corporationName="Men On A Mission"
+                 corporationID="1226284052" allianceID="0" allianceName="" factionID="0" factionName=""/>
+        </rowset>
+        <cachedUntil>2016-08-07 15:21:51</cachedUntil>
+    </result>
+</eveapi>

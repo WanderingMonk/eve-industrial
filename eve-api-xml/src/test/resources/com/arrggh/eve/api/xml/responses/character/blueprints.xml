@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<eveapi version="2">
+    <currentTime>2016-08-07 11:21:51</currentTime>
+    <result>
+        <rowset columns="itemID,locationID,typeID,typeName,flagID,quantity,timeEfficiency,materialEfficiency,runs"
+                key="itemID" name="blueprints">
+            <row runs="1" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4"
+                 typeName="Rattlesnake Victory Edition Blueprint" typeID="34153" locationID="60003466"
+                 itemID="1014573377908"/>
+            <row runs="10" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4"
+                 typeName="Council Diplomatic Shuttle Blueprint" typeID="34497" locationID="60003466"
+                 itemID="1012538208557"/>
+            <row runs="1" materialEfficiency="0" timeEfficiency="0" quantity="-2" flagID="4"
+                 typeName="Victorieux Luxury Yacht Blueprint" typeID="34591" locationID="60003466"
+                 itemID="1017147043703"/>
+        </rowset>
+    </result>
+</eveapi>
