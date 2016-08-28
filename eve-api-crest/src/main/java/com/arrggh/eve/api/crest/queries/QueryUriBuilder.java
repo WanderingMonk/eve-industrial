@@ -1,29 +1,20 @@
-package com.arrggh.eve.api.xml.queries;
+package com.arrggh.eve.api.crest.queries;
 
-import com.arrggh.eve.api.xml.authentication.XmlApiKey;
 import org.apache.http.client.utils.URIBuilder;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.util.Arrays;
 
 public abstract class QueryUriBuilder {
     /**
      * Build a URI to execute a query for a specify endpoint path.
      *
-     * The path (e.g. <pre>/char/Locations.xml.aspx</pre>) that the resulting URI will target, adding the keyID and
-     * vCode from the EVE API key to the URI as query parameters. The parameters should be supplied as a set of paired
-     * strings in the order of "name,value,name,value".
+     * The path that the resulting URI will target on the appropriate server.
      *
      * @param path the query path
-     * @param xmlApiKey the EVE api key
-     * @param parameters a set of parameter pairs
      * @return the resulting URI
      */
-    public URI buildUrl(String path, XmlApiKey xmlApiKey, String... parameters) {
-        if (parameters.length % 2 != 0) {
-            throw new IllegalArgumentException("Expected an even number of parameters [" + Arrays.toString(parameters) + "]");
-        }
+    public URI buildUrl(String path) {
         try {
             URIBuilder builder = new URIBuilder();
 
@@ -31,11 +22,6 @@ public abstract class QueryUriBuilder {
             builder.setHost(getHostname());
             builder.setPort(getPort());
             builder.setPath(path);
-            builder.setParameter("keyID", xmlApiKey.getKeyId());
-            builder.setParameter("vCode", xmlApiKey.getVerificationCode());
-            for (int i = 0; i != parameters.length / 2; i++) {
-                builder.setParameter(parameters[i * 2], parameters[i * 2 + 1]);
-            }
 
             return builder.build();
         } catch (URISyntaxException e) {

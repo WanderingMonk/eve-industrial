@@ -1,4 +1,4 @@
-package com.arrggh.eve.api.xml.responses;
+package com.arrggh.eve.api.crest.responses;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;
@@ -7,7 +7,7 @@ import static com.arrggh.eve.utilities.StringUtilities.isValid;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-public abstract class BasicModelObjectValidation<T> {
+public abstract class BasicResponseObjectValidation<T> {
 
     protected abstract Class<T> getClassUnderTest();
 

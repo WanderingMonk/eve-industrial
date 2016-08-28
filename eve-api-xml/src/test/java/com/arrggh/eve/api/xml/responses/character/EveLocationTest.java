@@ -1,8 +1,8 @@
 package com.arrggh.eve.api.xml.responses.character;
 
-import com.arrggh.eve.api.xml.responses.BasicModelObjectValidation;
+import com.arrggh.eve.api.xml.responses.BasicResponseObjectValidation;
 
-public class EveLocationTest extends BasicModelObjectValidation<EveLocation> {
+public class EveLocationTest extends BasicResponseObjectValidation<EveLocation> {
 
     @Override
     protected Class<EveLocation> getClassUnderTest() {

@@ -1,8 +1,8 @@
 package com.arrggh.eve.api.xml.responses.account;
 
-import com.arrggh.eve.api.xml.responses.BasicModelObjectValidation;
+import com.arrggh.eve.api.xml.responses.BasicResponseObjectValidation;
 
-public class EveCharacterTest extends BasicModelObjectValidation<EveCharacter> {
+public class EveCharacterTest extends BasicResponseObjectValidation<EveCharacter> {
 
     @Override
     protected Class<EveCharacter> getClassUnderTest() {

@@ -1,8 +1,8 @@
 package com.arrggh.eve.api.xml.authentication;
 
-import com.arrggh.eve.api.xml.responses.BasicModelObjectValidation;
+import com.arrggh.eve.api.xml.responses.BasicResponseObjectValidation;
 
-public class XmlApiKeyTest extends BasicModelObjectValidation<XmlApiKey> {
+public class XmlApiKeyTest extends BasicResponseObjectValidation<XmlApiKey> {
 
     @Override
     protected Class<XmlApiKey> getClassUnderTest() {

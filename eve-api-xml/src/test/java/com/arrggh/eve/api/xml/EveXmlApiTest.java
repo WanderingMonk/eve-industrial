@@ -1,13 +1,14 @@
 package com.arrggh.eve.api.xml;
 
 import com.arrggh.eve.api.xml.authentication.XmlApiKey;
-import com.arrggh.eve.api.xml.queries.LocalhostQueryUriBuilder;
+import com.arrggh.eve.utilities.queries.LocalhostQueryUriBuilder;
 import com.arrggh.eve.api.xml.responses.account.EveCharacter;
 import com.arrggh.eve.api.xml.responses.character.CharacterIndustryJob;
 import com.arrggh.eve.api.xml.responses.character.EveLocation;
 import com.arrggh.eve.api.xml.responses.character.OwnedAsset;
 import com.arrggh.eve.api.xml.responses.character.OwnedBlueprint;
 import com.arrggh.eve.utilities.cache.MemoryCache;
+import com.arrggh.eve.utilities.queries.CachedExternalQueryService;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
 import org.apache.commons.io.IOUtils;
 import org.junit.Rule;
@@ -39,7 +40,7 @@ public class EveXmlApiTest {
 
     @Test
     public void testGetAccount() {
-        EveXmlApi api = new EveXmlApi(new MemoryCache(), new LocalhostQueryUriBuilder(wireMockRule.port()));
+        EveXmlApi api = buildEveXmlApi();
 
         String url = "/account/Characters.xml.aspx?keyID=key&vCode=code";
         wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(assetsBody).withStatus(200)));
@@ -49,7 +50,7 @@ public class EveXmlApiTest {
 
     @Test
     public void testGetAssets() {
-        EveXmlApi api = new EveXmlApi(new MemoryCache(), new LocalhostQueryUriBuilder(wireMockRule.port()));
+        EveXmlApi api = buildEveXmlApi();
 
         String url = "/char/AssetList.xml.aspx?keyID=key&vCode=code&characterID=characterId&flat=1";
         wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(assetsBody).withStatus(200)));
@@ -59,7 +60,7 @@ public class EveXmlApiTest {
 
     @Test
     public void testGetBlueprints() {
-        EveXmlApi api = new EveXmlApi(new MemoryCache(), new LocalhostQueryUriBuilder(wireMockRule.port()));
+        EveXmlApi api = buildEveXmlApi();
 
         String url = "/char/Blueprints.xml.aspx?keyID=key&vCode=code&characterID=characterId";
         wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(blueprintBody).withStatus(200)));
@@ -69,7 +70,7 @@ public class EveXmlApiTest {
 
     @Test
     public void testGetCharacterList() {
-        EveXmlApi api = new EveXmlApi(new MemoryCache(), new LocalhostQueryUriBuilder(wireMockRule.port()));
+        EveXmlApi api = buildEveXmlApi();
 
         String url = "/account/Characters.xml.aspx?keyID=key&vCode=code";
         wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(charactersBody).withStatus(200)));
@@ -79,7 +80,7 @@ public class EveXmlApiTest {
 
     @Test
     public void testGetIndustryJobs() {
-        EveXmlApi api = new EveXmlApi(new MemoryCache(), new LocalhostQueryUriBuilder(wireMockRule.port()));
+        EveXmlApi api = buildEveXmlApi();
 
         String url = "/char/IndustryJobs.xml.aspx?keyID=key&vCode=code&characterID=characterId";
         wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(industryJobsBody).withStatus(200)));
@@ -89,11 +90,15 @@ public class EveXmlApiTest {
 
     @Test
     public void testGetLocation() {
-        EveXmlApi api = new EveXmlApi(new MemoryCache(), new LocalhostQueryUriBuilder(wireMockRule.port()));
+        EveXmlApi api = buildEveXmlApi();
 
         String url = "/char/Locations.xml.aspx?keyID=key&vCode=code&characterID=characterId&ids=locationId";
         wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(locationBody).withStatus(200)));
 
         api.getLocations(key, "characterId", "locationId");
+    }
+
+    private EveXmlApi buildEveXmlApi() {
+        return new EveXmlApi(new CachedExternalQueryService(new MemoryCache<>()), new LocalhostQueryUriBuilder(wireMockRule.port()));
     }
 }

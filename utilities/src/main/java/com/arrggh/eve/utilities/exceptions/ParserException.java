@@ -1,4 +1,4 @@
-package com.arrggh.eve.api.xml.parsers;
+package com.arrggh.eve.utilities.exceptions;
 
 public class ParserException extends RuntimeException {
     public ParserException(String message, Exception cause) {

@@ -11,5 +11,6 @@
             <row itemID="1018511379483" locationID="60003760" typeID="19689" quantity="19" flag="4" singleton="0"/>
             <row itemID="1018526577354" locationID="60003760" typeID="21918" quantity="348589" flag="4" singleton="0"/>
         </rowset>
+        <cachedUntil>2016-08-07 15:21:51</cachedUntil>
     </result>
 </eveapi>

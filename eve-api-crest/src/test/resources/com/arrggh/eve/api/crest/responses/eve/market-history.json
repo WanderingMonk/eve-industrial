@@ -1,0 +1,4208 @@
+{
+  "totalCount_str": "420",
+  "items": [
+    {
+      "volume_str": "7510383970",
+      "orderCount": 1588,
+      "lowPrice": 5.2,
+      "highPrice": 5.24,
+      "avgPrice": 5.23,
+      "volume": 7510383970,
+      "orderCount_str": "1588",
+      "date": "2015-07-01T00:00:00"
+    },
+    {
+      "volume_str": "6827871608",
+      "orderCount": 1831,
+      "lowPrice": 5.18,
+      "highPrice": 5.25,
+      "avgPrice": 5.22,
+      "volume": 6827871608,
+      "orderCount_str": "1831",
+      "date": "2015-07-02T00:00:00"
+    },
+    {
+      "volume_str": "17084211241",
+      "orderCount": 1667,
+      "lowPrice": 5.14,
+      "highPrice": 5.3,
+      "avgPrice": 5.27,
+      "volume": 17084211241,
+      "orderCount_str": "1667",
+      "date": "2015-07-03T00:00:00"
+    },
+    {
+      "volume_str": "8281138736",
+      "orderCount": 1899,
+      "lowPrice": 5.15,
+      "highPrice": 5.25,
+      "avgPrice": 5.23,
+      "volume": 8281138736,
+      "orderCount_str": "1899",
+      "date": "2015-07-04T00:00:00"
+    },
+    {
+      "volume_str": "9971321365",
+      "orderCount": 2039,
+      "lowPrice": 5.19,
+      "highPrice": 5.25,
+      "avgPrice": 5.23,
+      "volume": 9971321365,
+      "orderCount_str": "2039",
+      "date": "2015-07-05T00:00:00"
+    },
+    {
+      "volume_str": "13862816687",
+      "orderCount": 1784,
+      "lowPrice": 5.21,
+      "highPrice": 5.25,
+      "avgPrice": 5.24,
+      "volume": 13862816687,
+      "orderCount_str": "1784",
+      "date": "2015-07-06T00:00:00"
+    },
+    {
+      "volume_str": "7700417814",
+      "orderCount": 1697,
+      "lowPrice": 5.2,
+      "highPrice": 5.23,
+      "avgPrice": 5.22,
+      "volume": 7700417814,
+      "orderCount_str": "1697",
+      "date": "2015-07-07T00:00:00"
+    },
+    {
+      "volume_str": "11368035209",
+      "orderCount": 1689,
+      "lowPrice": 5.23,
+      "highPrice": 5.26,
+      "avgPrice": 5.24,
+      "volume": 11368035209,
+      "orderCount_str": "1689",
+      "date": "2015-07-08T00:00:00"
+    },
+    {
+      "volume_str": "10613022188",
+      "orderCount": 1757,
+      "lowPrice": 5.22,
+      "highPrice": 5.28,
+      "avgPrice": 5.26,
+      "volume": 10613022188,
+      "orderCount_str": "1757",
+      "date": "2015-07-09T00:00:00"
+    },
+    {
+      "volume_str": "12580993088",
+      "orderCount": 1907,
+      "lowPrice": 5.24,
+      "highPrice": 5.32,
+      "avgPrice": 5.29,
+      "volume": 12580993088,
+      "orderCount_str": "1907",
+      "date": "2015-07-10T00:00:00"
+    },
+    {
+      "volume_str": "7258489923",
+      "orderCount": 1991,
+      "lowPrice": 5.19,
+      "highPrice": 5.27,
+      "avgPrice": 5.24,
+      "volume": 7258489923,
+      "orderCount_str": "1991",
+      "date": "2015-07-11T00:00:00"
+    },
+    {
+      "volume_str": "11124327785",
+      "orderCount": 2219,
+      "lowPrice": 5.23,
+      "highPrice": 5.27,
+      "avgPrice": 5.26,
+      "volume": 11124327785,
+      "orderCount_str": "2219",
+      "date": "2015-07-12T00:00:00"
+    },
+    {
+      "volume_str": "13486384999",
+      "orderCount": 2030,
+      "lowPrice": 5.17,
+      "highPrice": 5.32,
+      "avgPrice": 5.29,
+      "volume": 13486384999,
+      "orderCount_str": "2030",
+      "date": "2015-07-13T00:00:00"
+    },
+    {
+      "volume_str": "8452722805",
+      "orderCount": 1947,
+      "lowPrice": 5.21,
+      "highPrice": 5.3,
+      "avgPrice": 5.22,
+      "volume": 8452722805,
+      "orderCount_str": "1947",
+      "date": "2015-07-14T00:00:00"
+    },
+    {
+      "volume_str": "1957364152",
+      "orderCount": 763,
+      "lowPrice": 5.2,
+      "highPrice": 5.25,
+      "avgPrice": 5.21,
+      "volume": 1957364152,
+      "orderCount_str": "763",
+      "date": "2015-07-15T00:00:00"
+    },
+    {
+      "volume_str": "11402616738",
+      "orderCount": 1976,
+      "lowPrice": 5.2,
+      "highPrice": 5.27,
+      "avgPrice": 5.25,
+      "volume": 11402616738,
+      "orderCount_str": "1976",
+      "date": "2015-07-16T00:00:00"
+    },
+    {
+      "volume_str": "10817664726",
+      "orderCount": 1789,
+      "lowPrice": 5.16,
+      "highPrice": 5.25,
+      "avgPrice": 5.2,
+      "volume": 10817664726,
+      "orderCount_str": "1789",
+      "date": "2015-07-17T00:00:00"
+    },
+    {
+      "volume_str": "13907569623",
+      "orderCount": 2110,
+      "lowPrice": 5.15,
+      "highPrice": 5.24,
+      "avgPrice": 5.21,
+      "volume": 13907569623,
+      "orderCount_str": "2110",
+      "date": "2015-07-18T00:00:00"
+    },
+    {
+      "volume_str": "10463162390",
+      "orderCount": 2247,
+      "lowPrice": 5.16,
+      "highPrice": 5.2,
+      "avgPrice": 5.19,
+      "volume": 10463162390,
+      "orderCount_str": "2247",
+      "date": "2015-07-19T00:00:00"
+    },
+    {
+      "volume_str": "11713035315",
+      "orderCount": 1880,
+      "lowPrice": 5.11,
+      "highPrice": 5.21,
+      "avgPrice": 5.14,
+      "volume": 11713035315,
+      "orderCount_str": "1880",
+      "date": "2015-07-20T00:00:00"
+    },
+    {
+      "volume_str": "9553316971",
+      "orderCount": 1690,
+      "lowPrice": 5.1,
+      "highPrice": 5.2,
+      "avgPrice": 5.19,
+      "volume": 9553316971,
+      "orderCount_str": "1690",
+      "date": "2015-07-21T00:00:00"
+    },
+    {
+      "volume_str": "7945264861",
+      "orderCount": 1791,
+      "lowPrice": 5.08,
+      "highPrice": 5.18,
+      "avgPrice": 5.16,
+      "volume": 7945264861,
+      "orderCount_str": "1791",
+      "date": "2015-07-22T00:00:00"
+    },
+    {
+      "volume_str": "7782073509",
+      "orderCount": 1829,
+      "lowPrice": 5.08,
+      "highPrice": 5.17,
+      "avgPrice": 5.16,
+      "volume": 7782073509,
+      "orderCount_str": "1829",
+      "date": "2015-07-23T00:00:00"
+    },
+    {
+      "volume_str": "10222476251",
+      "orderCount": 1960,
+      "lowPrice": 5.12,
+      "highPrice": 5.19,
+      "avgPrice": 5.18,
+      "volume": 10222476251,
+      "orderCount_str": "1960",
+      "date": "2015-07-24T00:00:00"
+    },
+    {
+      "volume_str": "11724877170",
+      "orderCount": 2001,
+      "lowPrice": 5.1,
+      "highPrice": 5.18,
+      "avgPrice": 5.16,
+      "volume": 11724877170,
+      "orderCount_str": "2001",
+      "date": "2015-07-25T00:00:00"
+    },
+    {
+      "volume_str": "9612357878",
+      "orderCount": 2332,
+      "lowPrice": 5.1,
+      "highPrice": 5.18,
+      "avgPrice": 5.12,
+      "volume": 9612357878,
+      "orderCount_str": "2332",
+      "date": "2015-07-26T00:00:00"
+    },
+    {
+      "volume_str": "10350989654",
+      "orderCount": 1980,
+      "lowPrice": 5.1,
+      "highPrice": 5.2,
+      "avgPrice": 5.13,
+      "volume": 10350989654,
+      "orderCount_str": "1980",
+      "date": "2015-07-27T00:00:00"
+    },
+    {
+      "volume_str": "14434996048",
+      "orderCount": 1933,
+      "lowPrice": 5.06,
+      "highPrice": 5.24,
+      "avgPrice": 5.18,
+      "volume": 14434996048,
+      "orderCount_str": "1933",
+      "date": "2015-07-28T00:00:00"
+    },
+    {
+      "volume_str": "11419634779",
+      "orderCount": 1761,
+      "lowPrice": 5.1,
+      "highPrice": 5.24,
+      "avgPrice": 5.22,
+      "volume": 11419634779,
+      "orderCount_str": "1761",
+      "date": "2015-07-29T00:00:00"
+    },
+    {
+      "volume_str": "15357808877",
+      "orderCount": 1797,
+      "lowPrice": 5.08,
+      "highPrice": 5.23,
+      "avgPrice": 5.11,
+      "volume": 15357808877,
+      "orderCount_str": "1797",
+      "date": "2015-07-30T00:00:00"
+    },
+    {
+      "volume_str": "14283951411",
+      "orderCount": 1857,
+      "lowPrice": 5.08,
+      "highPrice": 5.24,
+      "avgPrice": 5.18,
+      "volume": 14283951411,
+      "orderCount_str": "1857",
+      "date": "2015-07-31T00:00:00"
+    },
+    {
+      "volume_str": "17291438013",
+      "orderCount": 2143,
+      "lowPrice": 5.08,
+      "highPrice": 5.22,
+      "avgPrice": 5.11,
+      "volume": 17291438013,
+      "orderCount_str": "2143",
+      "date": "2015-08-01T00:00:00"
+    },
+    {
+      "volume_str": "14485811805",
+      "orderCount": 2219,
+      "lowPrice": 5.12,
+      "highPrice": 5.2,
+      "avgPrice": 5.18,
+      "volume": 14485811805,
+      "orderCount_str": "2219",
+      "date": "2015-08-02T00:00:00"
+    },
+    {
+      "volume_str": "12764155498",
+      "orderCount": 1874,
+      "lowPrice": 5.07,
+      "highPrice": 5.2,
+      "avgPrice": 5.18,
+      "volume": 12764155498,
+      "orderCount_str": "1874",
+      "date": "2015-08-03T00:00:00"
+    },
+    {
+      "volume_str": "10981393619",
+      "orderCount": 2303,
+      "lowPrice": 5.05,
+      "highPrice": 5.18,
+      "avgPrice": 5.17,
+      "volume": 10981393619,
+      "orderCount_str": "2303",
+      "date": "2015-08-04T00:00:00"
+    },
+    {
+      "volume_str": "6907304756",
+      "orderCount": 1854,
+      "lowPrice": 5.1,
+      "highPrice": 5.2,
+      "avgPrice": 5.18,
+      "volume": 6907304756,
+      "orderCount_str": "1854",
+      "date": "2015-08-05T00:00:00"
+    },
+    {
+      "volume_str": "14132744015",
+      "orderCount": 1831,
+      "lowPrice": 5.12,
+      "highPrice": 5.24,
+      "avgPrice": 5.2,
+      "volume": 14132744015,
+      "orderCount_str": "1831",
+      "date": "2015-08-06T00:00:00"
+    },
+    {
+      "volume_str": "11297099383",
+      "orderCount": 1715,
+      "lowPrice": 5.11,
+      "highPrice": 5.23,
+      "avgPrice": 5.21,
+      "volume": 11297099383,
+      "orderCount_str": "1715",
+      "date": "2015-08-07T00:00:00"
+    },
+    {
+      "volume_str": "9642212638",
+      "orderCount": 1891,
+      "lowPrice": 5.2,
+      "highPrice": 5.26,
+      "avgPrice": 5.23,
+      "volume": 9642212638,
+      "orderCount_str": "1891",
+      "date": "2015-08-08T00:00:00"
+    },
+    {
+      "volume_str": "10450929242",
+      "orderCount": 2271,
+      "lowPrice": 5.13,
+      "highPrice": 5.31,
+      "avgPrice": 5.24,
+      "volume": 10450929242,
+      "orderCount_str": "2271",
+      "date": "2015-08-09T00:00:00"
+    },
+    {
+      "volume_str": "7258162218",
+      "orderCount": 1755,
+      "lowPrice": 5.19,
+      "highPrice": 5.28,
+      "avgPrice": 5.25,
+      "volume": 7258162218,
+      "orderCount_str": "1755",
+      "date": "2015-08-10T00:00:00"
+    },
+    {
+      "volume_str": "8114046606",
+      "orderCount": 1795,
+      "lowPrice": 5.19,
+      "highPrice": 5.26,
+      "avgPrice": 5.22,
+      "volume": 8114046606,
+      "orderCount_str": "1795",
+      "date": "2015-08-11T00:00:00"
+    },
+    {
+      "volume_str": "8432828050",
+      "orderCount": 1838,
+      "lowPrice": 5.17,
+      "highPrice": 5.31,
+      "avgPrice": 5.27,
+      "volume": 8432828050,
+      "orderCount_str": "1838",
+      "date": "2015-08-12T00:00:00"
+    },
+    {
+      "volume_str": "4844232292",
+      "orderCount": 1721,
+      "lowPrice": 5.16,
+      "highPrice": 5.28,
+      "avgPrice": 5.23,
+      "volume": 4844232292,
+      "orderCount_str": "1721",
+      "date": "2015-08-13T00:00:00"
+    },
+    {
+      "volume_str": "11081331088",
+      "orderCount": 1708,
+      "lowPrice": 5.14,
+      "highPrice": 5.26,
+      "avgPrice": 5.16,
+      "volume": 11081331088,
+      "orderCount_str": "1708",
+      "date": "2015-08-14T00:00:00"
+    },
+    {
+      "volume_str": "8640307026",
+      "orderCount": 1795,
+      "lowPrice": 5.2,
+      "highPrice": 5.26,
+      "avgPrice": 5.24,
+      "volume": 8640307026,
+      "orderCount_str": "1795",
+      "date": "2015-08-15T00:00:00"
+    },
+    {
+      "volume_str": "10634417866",
+      "orderCount": 2233,
+      "lowPrice": 5.17,
+      "highPrice": 5.29,
+      "avgPrice": 5.24,
+      "volume": 10634417866,
+      "orderCount_str": "2233",
+      "date": "2015-08-16T00:00:00"
+    },
+    {
+      "volume_str": "15447480750",
+      "orderCount": 1966,
+      "lowPrice": 5.17,
+      "highPrice": 5.29,
+      "avgPrice": 5.21,
+      "volume": 15447480750,
+      "orderCount_str": "1966",
+      "date": "2015-08-17T00:00:00"
+    },
+    {
+      "volume_str": "7488883404",
+      "orderCount": 1867,
+      "lowPrice": 5.19,
+      "highPrice": 5.27,
+      "avgPrice": 5.24,
+      "volume": 7488883404,
+      "orderCount_str": "1867",
+      "date": "2015-08-18T00:00:00"
+    },
+    {
+      "volume_str": "9599272130",
+      "orderCount": 1690,
+      "lowPrice": 5.18,
+      "highPrice": 5.3,
+      "avgPrice": 5.21,
+      "volume": 9599272130,
+      "orderCount_str": "1690",
+      "date": "2015-08-19T00:00:00"
+    },
+    {
+      "volume_str": "10718222534",
+      "orderCount": 1953,
+      "lowPrice": 5.27,
+      "highPrice": 5.36,
+      "avgPrice": 5.33,
+      "volume": 10718222534,
+      "orderCount_str": "1953",
+      "date": "2015-08-20T00:00:00"
+    },
+    {
+      "volume_str": "10730475724",
+      "orderCount": 1961,
+      "lowPrice": 5.22,
+      "highPrice": 5.43,
+      "avgPrice": 5.39,
+      "volume": 10730475724,
+      "orderCount_str": "1961",
+      "date": "2015-08-21T00:00:00"
+    },
+    {
+      "volume_str": "7843266807",
+      "orderCount": 2019,
+      "lowPrice": 5.29,
+      "highPrice": 5.39,
+      "avgPrice": 5.36,
+      "volume": 7843266807,
+      "orderCount_str": "2019",
+      "date": "2015-08-22T00:00:00"
+    },
+    {
+      "volume_str": "9131493350",
+      "orderCount": 2544,
+      "lowPrice": 5.24,
+      "highPrice": 5.4,
+      "avgPrice": 5.3,
+      "volume": 9131493350,
+      "orderCount_str": "2544",
+      "date": "2015-08-23T00:00:00"
+    },
+    {
+      "volume_str": "12426299070",
+      "orderCount": 1942,
+      "lowPrice": 5.33,
+      "highPrice": 5.43,
+      "avgPrice": 5.37,
+      "volume": 12426299070,
+      "orderCount_str": "1942",
+      "date": "2015-08-24T00:00:00"
+    },
+    {
+      "volume_str": "10112014660",
+      "orderCount": 1800,
+      "lowPrice": 5.34,
+      "highPrice": 5.47,
+      "avgPrice": 5.43,
+      "volume": 10112014660,
+      "orderCount_str": "1800",
+      "date": "2015-08-25T00:00:00"
+    },
+    {
+      "volume_str": "15812319754",
+      "orderCount": 1736,
+      "lowPrice": 5.3,
+      "highPrice": 5.49,
+      "avgPrice": 5.38,
+      "volume": 15812319754,
+      "orderCount_str": "1736",
+      "date": "2015-08-26T00:00:00"
+    },
+    {
+      "volume_str": "13278624406",
+      "orderCount": 1689,
+      "lowPrice": 5.29,
+      "highPrice": 5.48,
+      "avgPrice": 5.42,
+      "volume": 13278624406,
+      "orderCount_str": "1689",
+      "date": "2015-08-27T00:00:00"
+    },
+    {
+      "volume_str": "8343174203",
+      "orderCount": 1612,
+      "lowPrice": 5.36,
+      "highPrice": 5.46,
+      "avgPrice": 5.4,
+      "volume": 8343174203,
+      "orderCount_str": "1612",
+      "date": "2015-08-28T00:00:00"
+    },
+    {
+      "volume_str": "8909977008",
+      "orderCount": 1872,
+      "lowPrice": 5.34,
+      "highPrice": 5.47,
+      "avgPrice": 5.43,
+      "volume": 8909977008,
+      "orderCount_str": "1872",
+      "date": "2015-08-29T00:00:00"
+    },
+    {
+      "volume_str": "9022461858",
+      "orderCount": 1900,
+      "lowPrice": 5.39,
+      "highPrice": 5.48,
+      "avgPrice": 5.44,
+      "volume": 9022461858,
+      "orderCount_str": "1900",
+      "date": "2015-08-30T00:00:00"
+    },
+    {
+      "volume_str": "7307372802",
+      "orderCount": 1655,
+      "lowPrice": 5.36,
+      "highPrice": 5.43,
+      "avgPrice": 5.42,
+      "volume": 7307372802,
+      "orderCount_str": "1655",
+      "date": "2015-08-31T00:00:00"
+    },
+    {
+      "volume_str": "10165915071",
+      "orderCount": 1755,
+      "lowPrice": 5.37,
+      "highPrice": 5.49,
+      "avgPrice": 5.44,
+      "volume": 10165915071,
+      "orderCount_str": "1755",
+      "date": "2015-09-01T00:00:00"
+    },
+    {
+      "volume_str": "7853062942",
+      "orderCount": 1604,
+      "lowPrice": 5.37,
+      "highPrice": 5.5,
+      "avgPrice": 5.46,
+      "volume": 7853062942,
+      "orderCount_str": "1604",
+      "date": "2015-09-02T00:00:00"
+    },
+    {
+      "volume_str": "8028988674",
+      "orderCount": 1768,
+      "lowPrice": 5.34,
+      "highPrice": 5.45,
+      "avgPrice": 5.4,
+      "volume": 8028988674,
+      "orderCount_str": "1768",
+      "date": "2015-09-03T00:00:00"
+    },
+    {
+      "volume_str": "11911515764",
+      "orderCount": 1728,
+      "lowPrice": 5.35,
+      "highPrice": 5.5,
+      "avgPrice": 5.48,
+      "volume": 11911515764,
+      "orderCount_str": "1728",
+      "date": "2015-09-04T00:00:00"
+    },
+    {
+      "volume_str": "7303741892",
+      "orderCount": 1851,
+      "lowPrice": 5.41,
+      "highPrice": 5.61,
+      "avgPrice": 5.59,
+      "volume": 7303741892,
+      "orderCount_str": "1851",
+      "date": "2015-09-05T00:00:00"
+    },
+    {
+      "volume_str": "8836672775",
+      "orderCount": 1939,
+      "lowPrice": 5.43,
+      "highPrice": 5.56,
+      "avgPrice": 5.48,
+      "volume": 8836672775,
+      "orderCount_str": "1939",
+      "date": "2015-09-06T00:00:00"
+    },
+    {
+      "volume_str": "10005935231",
+      "orderCount": 1817,
+      "lowPrice": 5.35,
+      "highPrice": 5.47,
+      "avgPrice": 5.42,
+      "volume": 10005935231,
+      "orderCount_str": "1817",
+      "date": "2015-09-07T00:00:00"
+    },
+    {
+      "volume_str": "9831061409",
+      "orderCount": 1720,
+      "lowPrice": 5.35,
+      "highPrice": 5.48,
+      "avgPrice": 5.4,
+      "volume": 9831061409,
+      "orderCount_str": "1720",
+      "date": "2015-09-08T00:00:00"
+    },
+    {
+      "volume_str": "7044580568",
+      "orderCount": 1478,
+      "lowPrice": 5.35,
+      "highPrice": 5.46,
+      "avgPrice": 5.41,
+      "volume": 7044580568,
+      "orderCount_str": "1478",
+      "date": "2015-09-09T00:00:00"
+    },
+    {
+      "volume_str": "5976845478",
+      "orderCount": 1574,
+      "lowPrice": 5.35,
+      "highPrice": 5.48,
+      "avgPrice": 5.41,
+      "volume": 5976845478,
+      "orderCount_str": "1574",
+      "date": "2015-09-10T00:00:00"
+    },
+    {
+      "volume_str": "6196208853",
+      "orderCount": 1597,
+      "lowPrice": 5.34,
+      "highPrice": 5.5,
+      "avgPrice": 5.43,
+      "volume": 6196208853,
+      "orderCount_str": "1597",
+      "date": "2015-09-11T00:00:00"
+    },
+    {
+      "volume_str": "6946998363",
+      "orderCount": 1959,
+      "lowPrice": 5.41,
+      "highPrice": 5.51,
+      "avgPrice": 5.5,
+      "volume": 6946998363,
+      "orderCount_str": "1959",
+      "date": "2015-09-12T00:00:00"
+    },
+    {
+      "volume_str": "10550263095",
+      "orderCount": 2115,
+      "lowPrice": 5.44,
+      "highPrice": 5.53,
+      "avgPrice": 5.5,
+      "volume": 10550263095,
+      "orderCount_str": "2115",
+      "date": "2015-09-13T00:00:00"
+    },
+    {
+      "volume_str": "7819997084",
+      "orderCount": 1562,
+      "lowPrice": 5.51,
+      "highPrice": 5.6,
+      "avgPrice": 5.58,
+      "volume": 7819997084,
+      "orderCount_str": "1562",
+      "date": "2015-09-14T00:00:00"
+    },
+    {
+      "volume_str": "11201108183",
+      "orderCount": 1725,
+      "lowPrice": 5.62,
+      "highPrice": 5.97,
+      "avgPrice": 5.76,
+      "volume": 11201108183,
+      "orderCount_str": "1725",
+      "date": "2015-09-15T00:00:00"
+    },
+    {
+      "volume_str": "6935728038",
+      "orderCount": 1627,
+      "lowPrice": 5.64,
+      "highPrice": 5.8,
+      "avgPrice": 5.74,
+      "volume": 6935728038,
+      "orderCount_str": "1627",
+      "date": "2015-09-16T00:00:00"
+    },
+    {
+      "volume_str": "9760313208",
+      "orderCount": 1639,
+      "lowPrice": 5.61,
+      "highPrice": 5.7,
+      "avgPrice": 5.62,
+      "volume": 9760313208,
+      "orderCount_str": "1639",
+      "date": "2015-09-17T00:00:00"
+    },
+    {
+      "volume_str": "8223464507",
+      "orderCount": 1720,
+      "lowPrice": 5.61,
+      "highPrice": 5.77,
+      "avgPrice": 5.74,
+      "volume": 8223464507,
+      "orderCount_str": "1720",
+      "date": "2015-09-18T00:00:00"
+    },
+    {
+      "volume_str": "9466677553",
+      "orderCount": 1939,
+      "lowPrice": 5.7,
+      "highPrice": 5.82,
+      "avgPrice": 5.73,
+      "volume": 9466677553,
+      "orderCount_str": "1939",
+      "date": "2015-09-19T00:00:00"
+    },
+    {
+      "volume_str": "11504646239",
+      "orderCount": 2079,
+      "lowPrice": 5.64,
+      "highPrice": 5.82,
+      "avgPrice": 5.72,
+      "volume": 11504646239,
+      "orderCount_str": "2079",
+      "date": "2015-09-20T00:00:00"
+    },
+    {
+      "volume_str": "9563795466",
+      "orderCount": 1684,
+      "lowPrice": 5.57,
+      "highPrice": 5.66,
+      "avgPrice": 5.64,
+      "volume": 9563795466,
+      "orderCount_str": "1684",
+      "date": "2015-09-21T00:00:00"
+    },
+    {
+      "volume_str": "9279923139",
+      "orderCount": 1772,
+      "lowPrice": 5.65,
+      "highPrice": 5.75,
+      "avgPrice": 5.7,
+      "volume": 9279923139,
+      "orderCount_str": "1772",
+      "date": "2015-09-22T00:00:00"
+    },
+    {
+      "volume_str": "8613833428",
+      "orderCount": 1740,
+      "lowPrice": 5.69,
+      "highPrice": 5.76,
+      "avgPrice": 5.71,
+      "volume": 8613833428,
+      "orderCount_str": "1740",
+      "date": "2015-09-23T00:00:00"
+    },
+    {
+      "volume_str": "7703197192",
+      "orderCount": 1662,
+      "lowPrice": 5.77,
+      "highPrice": 5.86,
+      "avgPrice": 5.83,
+      "volume": 7703197192,
+      "orderCount_str": "1662",
+      "date": "2015-09-24T00:00:00"
+    },
+    {
+      "volume_str": "7147833913",
+      "orderCount": 1632,
+      "lowPrice": 5.86,
+      "highPrice": 5.97,
+      "avgPrice": 5.94,
+      "volume": 7147833913,
+      "orderCount_str": "1632",
+      "date": "2015-09-25T00:00:00"
+    },
+    {
+      "volume_str": "9238371405",
+      "orderCount": 2169,
+      "lowPrice": 5.84,
+      "highPrice": 5.96,
+      "avgPrice": 5.93,
+      "volume": 9238371405,
+      "orderCount_str": "2169",
+      "date": "2015-09-26T00:00:00"
+    },
+    {
+      "volume_str": "9504032540",
+      "orderCount": 2520,
+      "lowPrice": 5.87,
+      "highPrice": 5.98,
+      "avgPrice": 5.95,
+      "volume": 9504032540,
+      "orderCount_str": "2520",
+      "date": "2015-09-27T00:00:00"
+    },
+    {
+      "volume_str": "7283627697",
+      "orderCount": 1690,
+      "lowPrice": 5.84,
+      "highPrice": 5.95,
+      "avgPrice": 5.91,
+      "volume": 7283627697,
+      "orderCount_str": "1690",
+      "date": "2015-09-28T00:00:00"
+    },
+    {
+      "volume_str": "9275756776",
+      "orderCount": 1712,
+      "lowPrice": 5.9,
+      "highPrice": 6.0,
+      "avgPrice": 5.96,
+      "volume": 9275756776,
+      "orderCount_str": "1712",
+      "date": "2015-09-29T00:00:00"
+    },
+    {
+      "volume_str": "12176523823",
+      "orderCount": 1738,
+      "lowPrice": 5.86,
+      "highPrice": 6.08,
+      "avgPrice": 6.03,
+      "volume": 12176523823,
+      "orderCount_str": "1738",
+      "date": "2015-09-30T00:00:00"
+    },
+    {
+      "volume_str": "9762876790",
+      "orderCount": 1729,
+      "lowPrice": 5.87,
+      "highPrice": 6.03,
+      "avgPrice": 5.99,
+      "volume": 9762876790,
+      "orderCount_str": "1729",
+      "date": "2015-10-01T00:00:00"
+    },
+    {
+      "volume_str": "9606057818",
+      "orderCount": 1840,
+      "lowPrice": 6.14,
+      "highPrice": 6.35,
+      "avgPrice": 6.19,
+      "volume": 9606057818,
+      "orderCount_str": "1840",
+      "date": "2015-10-02T00:00:00"
+    },
+    {
+      "volume_str": "9652225965",
+      "orderCount": 2027,
+      "lowPrice": 6.12,
+      "highPrice": 6.31,
+      "avgPrice": 6.24,
+      "volume": 9652225965,
+      "orderCount_str": "2027",
+      "date": "2015-10-03T00:00:00"
+    },
+    {
+      "volume_str": "14441514686",
+      "orderCount": 2266,
+      "lowPrice": 6.21,
+      "highPrice": 6.3,
+      "avgPrice": 6.25,
+      "volume": 14441514686,
+      "orderCount_str": "2266",
+      "date": "2015-10-04T00:00:00"
+    },
+    {
+      "volume_str": "12589340985",
+      "orderCount": 1962,
+      "lowPrice": 6.13,
+      "highPrice": 6.25,
+      "avgPrice": 6.23,
+      "volume": 12589340985,
+      "orderCount_str": "1962",
+      "date": "2015-10-05T00:00:00"
+    },
+    {
+      "volume_str": "9973140718",
+      "orderCount": 1788,
+      "lowPrice": 6.12,
+      "highPrice": 6.23,
+      "avgPrice": 6.15,
+      "volume": 9973140718,
+      "orderCount_str": "1788",
+      "date": "2015-10-06T00:00:00"
+    },
+    {
+      "volume_str": "8506283843",
+      "orderCount": 1749,
+      "lowPrice": 6.11,
+      "highPrice": 6.23,
+      "avgPrice": 6.2,
+      "volume": 8506283843,
+      "orderCount_str": "1749",
+      "date": "2015-10-07T00:00:00"
+    },
+    {
+      "volume_str": "8328214921",
+      "orderCount": 1601,
+      "lowPrice": 6.18,
+      "highPrice": 6.22,
+      "avgPrice": 6.19,
+      "volume": 8328214921,
+      "orderCount_str": "1601",
+      "date": "2015-10-08T00:00:00"
+    },
+    {
+      "volume_str": "8599114537",
+      "orderCount": 1623,
+      "lowPrice": 6.18,
+      "highPrice": 6.26,
+      "avgPrice": 6.21,
+      "volume": 8599114537,
+      "orderCount_str": "1623",
+      "date": "2015-10-09T00:00:00"
+    },
+    {
+      "volume_str": "9946768199",
+      "orderCount": 2065,
+      "lowPrice": 6.18,
+      "highPrice": 6.33,
+      "avgPrice": 6.23,
+      "volume": 9946768199,
+      "orderCount_str": "2065",
+      "date": "2015-10-10T00:00:00"
+    },
+    {
+      "volume_str": "10226927130",
+      "orderCount": 2222,
+      "lowPrice": 6.07,
+      "highPrice": 6.11,
+      "avgPrice": 6.1,
+      "volume": 10226927130,
+      "orderCount_str": "2222",
+      "date": "2015-10-11T00:00:00"
+    },
+    {
+      "volume_str": "6528355591",
+      "orderCount": 1730,
+      "lowPrice": 6.02,
+      "highPrice": 6.11,
+      "avgPrice": 6.07,
+      "volume": 6528355591,
+      "orderCount_str": "1730",
+      "date": "2015-10-12T00:00:00"
+    },
+    {
+      "volume_str": "7551456174",
+      "orderCount": 1806,
+      "lowPrice": 6.06,
+      "highPrice": 6.11,
+      "avgPrice": 6.1,
+      "volume": 7551456174,
+      "orderCount_str": "1806",
+      "date": "2015-10-13T00:00:00"
+    },
+    {
+      "volume_str": "12468896036",
+      "orderCount": 1714,
+      "lowPrice": 6.06,
+      "highPrice": 6.27,
+      "avgPrice": 6.17,
+      "volume": 12468896036,
+      "orderCount_str": "1714",
+      "date": "2015-10-15T00:00:00"
+    },
+    {
+      "volume_str": "11609774132",
+      "orderCount": 1805,
+      "lowPrice": 6.1,
+      "highPrice": 6.14,
+      "avgPrice": 6.13,
+      "volume": 11609774132,
+      "orderCount_str": "1805",
+      "date": "2015-10-16T00:00:00"
+    },
+    {
+      "volume_str": "9360590733",
+      "orderCount": 2002,
+      "lowPrice": 6.07,
+      "highPrice": 6.18,
+      "avgPrice": 6.13,
+      "volume": 9360590733,
+      "orderCount_str": "2002",
+      "date": "2015-10-17T00:00:00"
+    },
+    {
+      "volume_str": "13426463154",
+      "orderCount": 2420,
+      "lowPrice": 6.06,
+      "highPrice": 6.22,
+      "avgPrice": 6.1,
+      "volume": 13426463154,
+      "orderCount_str": "2420",
+      "date": "2015-10-18T00:00:00"
+    },
+    {
+      "volume_str": "6544983212",
+      "orderCount": 1806,
+      "lowPrice": 6.03,
+      "highPrice": 6.09,
+      "avgPrice": 6.07,
+      "volume": 6544983212,
+      "orderCount_str": "1806",
+      "date": "2015-10-19T00:00:00"
+    },
+    {
+      "volume_str": "7535216897",
+      "orderCount": 1662,
+      "lowPrice": 6.03,
+      "highPrice": 6.09,
+      "avgPrice": 6.07,
+      "volume": 7535216897,
+      "orderCount_str": "1662",
+      "date": "2015-10-20T00:00:00"
+    },
+    {
+      "volume_str": "9124975890",
+      "orderCount": 1782,
+      "lowPrice": 5.94,
+      "highPrice": 6.03,
+      "avgPrice": 6.0,
+      "volume": 9124975890,
+      "orderCount_str": "1782",
+      "date": "2015-10-21T00:00:00"
+    },
+    {
+      "volume_str": "9820203169",
+      "orderCount": 1857,
+      "lowPrice": 5.99,
+      "highPrice": 6.1,
+      "avgPrice": 6.08,
+      "volume": 9820203169,
+      "orderCount_str": "1857",
+      "date": "2015-10-22T00:00:00"
+    },
+    {
+      "volume_str": "8547344996",
+      "orderCount": 1854,
+      "lowPrice": 5.98,
+      "highPrice": 6.1,
+      "avgPrice": 6.09,
+      "volume": 8547344996,
+      "orderCount_str": "1854",
+      "date": "2015-10-23T00:00:00"
+    },
+    {
+      "volume_str": "11662376905",
+      "orderCount": 2211,
+      "lowPrice": 6.04,
+      "highPrice": 6.12,
+      "avgPrice": 6.1,
+      "volume": 11662376905,
+      "orderCount_str": "2211",
+      "date": "2015-10-24T00:00:00"
+    },
+    {
+      "volume_str": "15135848427",
+      "orderCount": 2235,
+      "lowPrice": 6.09,
+      "highPrice": 6.14,
+      "avgPrice": 6.12,
+      "volume": 15135848427,
+      "orderCount_str": "2235",
+      "date": "2015-10-25T00:00:00"
+    },
+    {
+      "volume_str": "14847693378",
+      "orderCount": 1903,
+      "lowPrice": 6.1,
+      "highPrice": 6.17,
+      "avgPrice": 6.14,
+      "volume": 14847693378,
+      "orderCount_str": "1903",
+      "date": "2015-10-26T00:00:00"
+    },
+    {
+      "volume_str": "12143012688",
+      "orderCount": 1818,
+      "lowPrice": 5.98,
+      "highPrice": 6.13,
+      "avgPrice": 6.07,
+      "volume": 12143012688,
+      "orderCount_str": "1818",
+      "date": "2015-10-27T00:00:00"
+    },
+    {
+      "volume_str": "18663362419",
+      "orderCount": 1772,
+      "lowPrice": 5.99,
+      "highPrice": 6.1,
+      "avgPrice": 6.07,
+      "volume": 18663362419,
+      "orderCount_str": "1772",
+      "date": "2015-10-28T00:00:00"
+    },
+    {
+      "volume_str": "8870143914",
+      "orderCount": 1815,
+      "lowPrice": 6.06,
+      "highPrice": 6.1,
+      "avgPrice": 6.09,
+      "volume": 8870143914,
+      "orderCount_str": "1815",
+      "date": "2015-10-29T00:00:00"
+    },
+    {
+      "volume_str": "15558740286",
+      "orderCount": 1895,
+      "lowPrice": 5.97,
+      "highPrice": 6.08,
+      "avgPrice": 6.04,
+      "volume": 15558740286,
+      "orderCount_str": "1895",
+      "date": "2015-10-30T00:00:00"
+    },
+    {
+      "volume_str": "10976821261",
+      "orderCount": 2214,
+      "lowPrice": 6.06,
+      "highPrice": 6.14,
+      "avgPrice": 6.1,
+      "volume": 10976821261,
+      "orderCount_str": "2214",
+      "date": "2015-10-31T00:00:00"
+    },
+    {
+      "volume_str": "11428311173",
+      "orderCount": 2401,
+      "lowPrice": 6.11,
+      "highPrice": 6.21,
+      "avgPrice": 6.18,
+      "volume": 11428311173,
+      "orderCount_str": "2401",
+      "date": "2015-11-01T00:00:00"
+    },
+    {
+      "volume_str": "16674406056",
+      "orderCount": 1928,
+      "lowPrice": 6.07,
+      "highPrice": 6.14,
+      "avgPrice": 6.1,
+      "volume": 16674406056,
+      "orderCount_str": "1928",
+      "date": "2015-11-02T00:00:00"
+    },
+    {
+      "volume_str": "16800871659",
+      "orderCount": 1767,
+      "lowPrice": 6.1,
+      "highPrice": 6.19,
+      "avgPrice": 6.17,
+      "volume": 16800871659,
+      "orderCount_str": "1767",
+      "date": "2015-11-03T00:00:00"
+    },
+    {
+      "volume_str": "18175130629",
+      "orderCount": 1863,
+      "lowPrice": 6.03,
+      "highPrice": 6.2,
+      "avgPrice": 6.13,
+      "volume": 18175130629,
+      "orderCount_str": "1863",
+      "date": "2015-11-04T00:00:00"
+    },
+    {
+      "volume_str": "9550928858",
+      "orderCount": 1795,
+      "lowPrice": 6.16,
+      "highPrice": 6.28,
+      "avgPrice": 6.22,
+      "volume": 9550928858,
+      "orderCount_str": "1795",
+      "date": "2015-11-05T00:00:00"
+    },
+    {
+      "volume_str": "18677309618",
+      "orderCount": 1902,
+      "lowPrice": 6.1,
+      "highPrice": 6.28,
+      "avgPrice": 6.17,
+      "volume": 18677309618,
+      "orderCount_str": "1902",
+      "date": "2015-11-06T00:00:00"
+    },
+    {
+      "volume_str": "20748970017",
+      "orderCount": 2251,
+      "lowPrice": 6.15,
+      "highPrice": 6.38,
+      "avgPrice": 6.29,
+      "volume": 20748970017,
+      "orderCount_str": "2251",
+      "date": "2015-11-07T00:00:00"
+    },
+    {
+      "volume_str": "18983929196",
+      "orderCount": 2368,
+      "lowPrice": 6.18,
+      "highPrice": 6.37,
+      "avgPrice": 6.2,
+      "volume": 18983929196,
+      "orderCount_str": "2368",
+      "date": "2015-11-08T00:00:00"
+    },
+    {
+      "volume_str": "9270350613",
+      "orderCount": 1761,
+      "lowPrice": 6.24,
+      "highPrice": 6.3,
+      "avgPrice": 6.29,
+      "volume": 9270350613,
+      "orderCount_str": "1761",
+      "date": "2015-11-09T00:00:00"
+    },
+    {
+      "volume_str": "7323530687",
+      "orderCount": 1730,
+      "lowPrice": 6.25,
+      "highPrice": 6.28,
+      "avgPrice": 6.26,
+      "volume": 7323530687,
+      "orderCount_str": "1730",
+      "date": "2015-11-10T00:00:00"
+    },
+    {
+      "volume_str": "10650982222",
+      "orderCount": 1709,
+      "lowPrice": 6.25,
+      "highPrice": 6.35,
+      "avgPrice": 6.29,
+      "volume": 10650982222,
+      "orderCount_str": "1709",
+      "date": "2015-11-11T00:00:00"
+    },
+    {
+      "volume_str": "8339800688",
+      "orderCount": 1607,
+      "lowPrice": 6.22,
+      "highPrice": 6.39,
+      "avgPrice": 6.35,
+      "volume": 8339800688,
+      "orderCount_str": "1607",
+      "date": "2015-11-12T00:00:00"
+    },
+    {
+      "volume_str": "7004778050",
+      "orderCount": 1524,
+      "lowPrice": 6.22,
+      "highPrice": 6.34,
+      "avgPrice": 6.3,
+      "volume": 7004778050,
+      "orderCount_str": "1524",
+      "date": "2015-11-13T00:00:00"
+    },
+    {
+      "volume_str": "6391570697",
+      "orderCount": 1847,
+      "lowPrice": 6.25,
+      "highPrice": 6.34,
+      "avgPrice": 6.32,
+      "volume": 6391570697,
+      "orderCount_str": "1847",
+      "date": "2015-11-14T00:00:00"
+    },
+    {
+      "volume_str": "10207892717",
+      "orderCount": 1985,
+      "lowPrice": 6.3,
+      "highPrice": 6.4,
+      "avgPrice": 6.37,
+      "volume": 10207892717,
+      "orderCount_str": "1985",
+      "date": "2015-11-15T00:00:00"
+    },
+    {
+      "volume_str": "10076904026",
+      "orderCount": 1691,
+      "lowPrice": 6.3,
+      "highPrice": 6.36,
+      "avgPrice": 6.31,
+      "volume": 10076904026,
+      "orderCount_str": "1691",
+      "date": "2015-11-16T00:00:00"
+    },
+    {
+      "volume_str": "12099543215",
+      "orderCount": 1659,
+      "lowPrice": 6.32,
+      "highPrice": 6.48,
+      "avgPrice": 6.4,
+      "volume": 12099543215,
+      "orderCount_str": "1659",
+      "date": "2015-11-17T00:00:00"
+    },
+    {
+      "volume_str": "9940652549",
+      "orderCount": 1572,
+      "lowPrice": 6.35,
+      "highPrice": 6.49,
+      "avgPrice": 6.46,
+      "volume": 9940652549,
+      "orderCount_str": "1572",
+      "date": "2015-11-18T00:00:00"
+    },
+    {
+      "volume_str": "7039409575",
+      "orderCount": 1407,
+      "lowPrice": 6.29,
+      "highPrice": 6.4,
+      "avgPrice": 6.37,
+      "volume": 7039409575,
+      "orderCount_str": "1407",
+      "date": "2015-11-19T00:00:00"
+    },
+    {
+      "volume_str": "13346963087",
+      "orderCount": 1581,
+      "lowPrice": 6.31,
+      "highPrice": 6.4,
+      "avgPrice": 6.36,
+      "volume": 13346963087,
+      "orderCount_str": "1581",
+      "date": "2015-11-20T00:00:00"
+    },
+    {
+      "volume_str": "10824766394",
+      "orderCount": 1850,
+      "lowPrice": 6.28,
+      "highPrice": 6.46,
+      "avgPrice": 6.35,
+      "volume": 10824766394,
+      "orderCount_str": "1850",
+      "date": "2015-11-21T00:00:00"
+    },
+    {
+      "volume_str": "10413525370",
+      "orderCount": 1903,
+      "lowPrice": 6.22,
+      "highPrice": 6.35,
+      "avgPrice": 6.24,
+      "volume": 10413525370,
+      "orderCount_str": "1903",
+      "date": "2015-11-22T00:00:00"
+    },
+    {
+      "volume_str": "8274056564",
+      "orderCount": 1572,
+      "lowPrice": 6.13,
+      "highPrice": 6.3,
+      "avgPrice": 6.24,
+      "volume": 8274056564,
+      "orderCount_str": "1572",
+      "date": "2015-11-23T00:00:00"
+    },
+    {
+      "volume_str": "7365306345",
+      "orderCount": 1444,
+      "lowPrice": 6.18,
+      "highPrice": 6.35,
+      "avgPrice": 6.28,
+      "volume": 7365306345,
+      "orderCount_str": "1444",
+      "date": "2015-11-24T00:00:00"
+    },
+    {
+      "volume_str": "10332280976",
+      "orderCount": 1589,
+      "lowPrice": 6.15,
+      "highPrice": 6.36,
+      "avgPrice": 6.31,
+      "volume": 10332280976,
+      "orderCount_str": "1589",
+      "date": "2015-11-25T00:00:00"
+    },
+    {
+      "volume_str": "5806371247",
+      "orderCount": 1450,
+      "lowPrice": 6.14,
+      "highPrice": 6.28,
+      "avgPrice": 6.25,
+      "volume": 5806371247,
+      "orderCount_str": "1450",
+      "date": "2015-11-26T00:00:00"
+    },
+    {
+      "volume_str": "7071007970",
+      "orderCount": 1581,
+      "lowPrice": 6.19,
+      "highPrice": 6.26,
+      "avgPrice": 6.24,
+      "volume": 7071007970,
+      "orderCount_str": "1581",
+      "date": "2015-11-27T00:00:00"
+    },
+    {
+      "volume_str": "9755810011",
+      "orderCount": 1775,
+      "lowPrice": 6.15,
+      "highPrice": 6.29,
+      "avgPrice": 6.25,
+      "volume": 9755810011,
+      "orderCount_str": "1775",
+      "date": "2015-11-28T00:00:00"
+    },
+    {
+      "volume_str": "6623737169",
+      "orderCount": 1980,
+      "lowPrice": 6.11,
+      "highPrice": 6.27,
+      "avgPrice": 6.22,
+      "volume": 6623737169,
+      "orderCount_str": "1980",
+      "date": "2015-11-29T00:00:00"
+    },
+    {
+      "volume_str": "6483856395",
+      "orderCount": 1658,
+      "lowPrice": 6.17,
+      "highPrice": 6.23,
+      "avgPrice": 6.21,
+      "volume": 6483856395,
+      "orderCount_str": "1658",
+      "date": "2015-11-30T00:00:00"
+    },
+    {
+      "volume_str": "8177680862",
+      "orderCount": 1665,
+      "lowPrice": 6.13,
+      "highPrice": 6.27,
+      "avgPrice": 6.25,
+      "volume": 8177680862,
+      "orderCount_str": "1665",
+      "date": "2015-12-01T00:00:00"
+    },
+    {
+      "volume_str": "12353441891",
+      "orderCount": 1645,
+      "lowPrice": 6.1,
+      "highPrice": 6.27,
+      "avgPrice": 6.18,
+      "volume": 12353441891,
+      "orderCount_str": "1645",
+      "date": "2015-12-02T00:00:00"
+    },
+    {
+      "volume_str": "6999866923",
+      "orderCount": 1697,
+      "lowPrice": 6.18,
+      "highPrice": 6.29,
+      "avgPrice": 6.26,
+      "volume": 6999866923,
+      "orderCount_str": "1697",
+      "date": "2015-12-03T00:00:00"
+    },
+    {
+      "volume_str": "7942798115",
+      "orderCount": 1520,
+      "lowPrice": 6.2,
+      "highPrice": 6.34,
+      "avgPrice": 6.31,
+      "volume": 7942798115,
+      "orderCount_str": "1520",
+      "date": "2015-12-04T00:00:00"
+    },
+    {
+      "volume_str": "11540947393",
+      "orderCount": 2073,
+      "lowPrice": 6.26,
+      "highPrice": 6.44,
+      "avgPrice": 6.39,
+      "volume": 11540947393,
+      "orderCount_str": "2073",
+      "date": "2015-12-05T00:00:00"
+    },
+    {
+      "volume_str": "9954020310",
+      "orderCount": 2230,
+      "lowPrice": 6.31,
+      "highPrice": 6.52,
+      "avgPrice": 6.46,
+      "volume": 9954020310,
+      "orderCount_str": "2230",
+      "date": "2015-12-06T00:00:00"
+    },
+    {
+      "volume_str": "7224808073",
+      "orderCount": 1678,
+      "lowPrice": 6.3,
+      "highPrice": 6.38,
+      "avgPrice": 6.31,
+      "volume": 7224808073,
+      "orderCount_str": "1678",
+      "date": "2015-12-07T00:00:00"
+    },
+    {
+      "volume_str": "8129988854",
+      "orderCount": 1893,
+      "lowPrice": 6.28,
+      "highPrice": 6.4,
+      "avgPrice": 6.34,
+      "volume": 8129988854,
+      "orderCount_str": "1893",
+      "date": "2015-12-08T00:00:00"
+    },
+    {
+      "volume_str": "5020041651",
+      "orderCount": 1953,
+      "lowPrice": 6.23,
+      "highPrice": 6.33,
+      "avgPrice": 6.28,
+      "volume": 5020041651,
+      "orderCount_str": "1953",
+      "date": "2015-12-09T00:00:00"
+    },
+    {
+      "volume_str": "8530510525",
+      "orderCount": 2095,
+      "lowPrice": 6.16,
+      "highPrice": 6.31,
+      "avgPrice": 6.24,
+      "volume": 8530510525,
+      "orderCount_str": "2095",
+      "date": "2015-12-10T00:00:00"
+    },
+    {
+      "volume_str": "6338940978",
+      "orderCount": 2147,
+      "lowPrice": 6.2,
+      "highPrice": 6.34,
+      "avgPrice": 6.33,
+      "volume": 6338940978,
+      "orderCount_str": "2147",
+      "date": "2015-12-11T00:00:00"
+    },
+    {
+      "volume_str": "9296954601",
+      "orderCount": 2500,
+      "lowPrice": 6.22,
+      "highPrice": 6.33,
+      "avgPrice": 6.32,
+      "volume": 9296954601,
+      "orderCount_str": "2500",
+      "date": "2015-12-12T00:00:00"
+    },
+    {
+      "volume_str": "15129290962",
+      "orderCount": 2782,
+      "lowPrice": 6.19,
+      "highPrice": 6.34,
+      "avgPrice": 6.29,
+      "volume": 15129290962,
+      "orderCount_str": "2782",
+      "date": "2015-12-13T00:00:00"
+    },
+    {
+      "volume_str": "7758468849",
+      "orderCount": 2232,
+      "lowPrice": 6.24,
+      "highPrice": 6.33,
+      "avgPrice": 6.32,
+      "volume": 7758468849,
+      "orderCount_str": "2232",
+      "date": "2015-12-14T00:00:00"
+    },
+    {
+      "volume_str": "9995855748",
+      "orderCount": 2162,
+      "lowPrice": 6.21,
+      "highPrice": 6.33,
+      "avgPrice": 6.29,
+      "volume": 9995855748,
+      "orderCount_str": "2162",
+      "date": "2015-12-15T00:00:00"
+    },
+    {
+      "volume_str": "5994801343",
+      "orderCount": 1954,
+      "lowPrice": 6.19,
+      "highPrice": 6.28,
+      "avgPrice": 6.26,
+      "volume": 5994801343,
+      "orderCount_str": "1954",
+      "date": "2015-12-16T00:00:00"
+    },
+    {
+      "volume_str": "7938216763",
+      "orderCount": 2050,
+      "lowPrice": 6.21,
+      "highPrice": 6.3,
+      "avgPrice": 6.29,
+      "volume": 7938216763,
+      "orderCount_str": "2050",
+      "date": "2015-12-17T00:00:00"
+    },
+    {
+      "volume_str": "10688346439",
+      "orderCount": 1987,
+      "lowPrice": 6.25,
+      "highPrice": 6.34,
+      "avgPrice": 6.3,
+      "volume": 10688346439,
+      "orderCount_str": "1987",
+      "date": "2015-12-18T00:00:00"
+    },
+    {
+      "volume_str": "11958657334",
+      "orderCount": 2332,
+      "lowPrice": 6.25,
+      "highPrice": 6.36,
+      "avgPrice": 6.32,
+      "volume": 11958657334,
+      "orderCount_str": "2332",
+      "date": "2015-12-19T00:00:00"
+    },
+    {
+      "volume_str": "8744952439",
+      "orderCount": 2453,
+      "lowPrice": 6.26,
+      "highPrice": 6.35,
+      "avgPrice": 6.3,
+      "volume": 8744952439,
+      "orderCount_str": "2453",
+      "date": "2015-12-20T00:00:00"
+    },
+    {
+      "volume_str": "9222717230",
+      "orderCount": 2062,
+      "lowPrice": 6.29,
+      "highPrice": 6.33,
+      "avgPrice": 6.32,
+      "volume": 9222717230,
+      "orderCount_str": "2062",
+      "date": "2015-12-21T00:00:00"
+    },
+    {
+      "volume_str": "9037660675",
+      "orderCount": 2195,
+      "lowPrice": 6.26,
+      "highPrice": 6.33,
+      "avgPrice": 6.31,
+      "volume": 9037660675,
+      "orderCount_str": "2195",
+      "date": "2015-12-22T00:00:00"
+    },
+    {
+      "volume_str": "7857029492",
+      "orderCount": 2208,
+      "lowPrice": 6.27,
+      "highPrice": 6.35,
+      "avgPrice": 6.29,
+      "volume": 7857029492,
+      "orderCount_str": "2208",
+      "date": "2015-12-23T00:00:00"
+    },
+    {
+      "volume_str": "10945841430",
+      "orderCount": 1999,
+      "lowPrice": 6.3,
+      "highPrice": 6.44,
+      "avgPrice": 6.4,
+      "volume": 10945841430,
+      "orderCount_str": "1999",
+      "date": "2015-12-24T00:00:00"
+    },
+    {
+      "volume_str": "7719320935",
+      "orderCount": 1917,
+      "lowPrice": 6.33,
+      "highPrice": 6.43,
+      "avgPrice": 6.4,
+      "volume": 7719320935,
+      "orderCount_str": "1917",
+      "date": "2015-12-25T00:00:00"
+    },
+    {
+      "volume_str": "10571797831",
+      "orderCount": 2418,
+      "lowPrice": 6.34,
+      "highPrice": 6.46,
+      "avgPrice": 6.43,
+      "volume": 10571797831,
+      "orderCount_str": "2418",
+      "date": "2015-12-26T00:00:00"
+    },
+    {
+      "volume_str": "8124981070",
+      "orderCount": 2369,
+      "lowPrice": 6.32,
+      "highPrice": 6.42,
+      "avgPrice": 6.38,
+      "volume": 8124981070,
+      "orderCount_str": "2369",
+      "date": "2015-12-27T00:00:00"
+    },
+    {
+      "volume_str": "11888795998",
+      "orderCount": 2031,
+      "lowPrice": 6.3,
+      "highPrice": 6.35,
+      "avgPrice": 6.32,
+      "volume": 11888795998,
+      "orderCount_str": "2031",
+      "date": "2015-12-28T00:00:00"
+    },
+    {
+      "volume_str": "8682947669",
+      "orderCount": 2250,
+      "lowPrice": 6.21,
+      "highPrice": 6.29,
+      "avgPrice": 6.26,
+      "volume": 8682947669,
+      "orderCount_str": "2250",
+      "date": "2015-12-29T00:00:00"
+    },
+    {
+      "volume_str": "7274203740",
+      "orderCount": 2135,
+      "lowPrice": 6.22,
+      "highPrice": 6.31,
+      "avgPrice": 6.28,
+      "volume": 7274203740,
+      "orderCount_str": "2135",
+      "date": "2015-12-30T00:00:00"
+    },
+    {
+      "volume_str": "8259134385",
+      "orderCount": 1770,
+      "lowPrice": 6.21,
+      "highPrice": 6.32,
+      "avgPrice": 6.27,
+      "volume": 8259134385,
+      "orderCount_str": "1770",
+      "date": "2015-12-31T00:00:00"
+    },
+    {
+      "volume_str": "12849216082",
+      "orderCount": 1982,
+      "lowPrice": 6.22,
+      "highPrice": 6.33,
+      "avgPrice": 6.31,
+      "volume": 12849216082,
+      "orderCount_str": "1982",
+      "date": "2016-01-01T00:00:00"
+    },
+    {
+      "volume_str": "13418867991",
+      "orderCount": 2251,
+      "lowPrice": 6.23,
+      "highPrice": 6.33,
+      "avgPrice": 6.31,
+      "volume": 13418867991,
+      "orderCount_str": "2251",
+      "date": "2016-01-02T00:00:00"
+    },
+    {
+      "volume_str": "9007209023",
+      "orderCount": 2381,
+      "lowPrice": 6.24,
+      "highPrice": 6.33,
+      "avgPrice": 6.3,
+      "volume": 9007209023,
+      "orderCount_str": "2381",
+      "date": "2016-01-03T00:00:00"
+    },
+    {
+      "volume_str": "10186170799",
+      "orderCount": 2231,
+      "lowPrice": 6.22,
+      "highPrice": 6.3,
+      "avgPrice": 6.27,
+      "volume": 10186170799,
+      "orderCount_str": "2231",
+      "date": "2016-01-04T00:00:00"
+    },
+    {
+      "volume_str": "12529870933",
+      "orderCount": 2193,
+      "lowPrice": 6.17,
+      "highPrice": 6.32,
+      "avgPrice": 6.24,
+      "volume": 12529870933,
+      "orderCount_str": "2193",
+      "date": "2016-01-05T00:00:00"
+    },
+    {
+      "volume_str": "8845042784",
+      "orderCount": 2129,
+      "lowPrice": 6.24,
+      "highPrice": 6.35,
+      "avgPrice": 6.33,
+      "volume": 8845042784,
+      "orderCount_str": "2129",
+      "date": "2016-01-06T00:00:00"
+    },
+    {
+      "volume_str": "8000474154",
+      "orderCount": 2050,
+      "lowPrice": 6.25,
+      "highPrice": 6.35,
+      "avgPrice": 6.33,
+      "volume": 8000474154,
+      "orderCount_str": "2050",
+      "date": "2016-01-07T00:00:00"
+    },
+    {
+      "volume_str": "9352336164",
+      "orderCount": 2196,
+      "lowPrice": 6.24,
+      "highPrice": 6.35,
+      "avgPrice": 6.31,
+      "volume": 9352336164,
+      "orderCount_str": "2196",
+      "date": "2016-01-08T00:00:00"
+    },
+    {
+      "volume_str": "11595419306",
+      "orderCount": 2425,
+      "lowPrice": 6.27,
+      "highPrice": 6.38,
+      "avgPrice": 6.33,
+      "volume": 11595419306,
+      "orderCount_str": "2425",
+      "date": "2016-01-09T00:00:00"
+    },
+    {
+      "volume_str": "12904134729",
+      "orderCount": 2440,
+      "lowPrice": 6.26,
+      "highPrice": 6.36,
+      "avgPrice": 6.28,
+      "volume": 12904134729,
+      "orderCount_str": "2440",
+      "date": "2016-01-10T00:00:00"
+    },
+    {
+      "volume_str": "9903329769",
+      "orderCount": 1858,
+      "lowPrice": 6.22,
+      "highPrice": 6.32,
+      "avgPrice": 6.29,
+      "volume": 9903329769,
+      "orderCount_str": "1858",
+      "date": "2016-01-11T00:00:00"
+    },
+    {
+      "volume_str": "10457812354",
+      "orderCount": 1865,
+      "lowPrice": 6.2,
+      "highPrice": 6.33,
+      "avgPrice": 6.25,
+      "volume": 10457812354,
+      "orderCount_str": "1865",
+      "date": "2016-01-12T00:00:00"
+    },
+    {
+      "volume_str": "11833141635",
+      "orderCount": 1929,
+      "lowPrice": 6.25,
+      "highPrice": 6.36,
+      "avgPrice": 6.35,
+      "volume": 11833141635,
+      "orderCount_str": "1929",
+      "date": "2016-01-13T00:00:00"
+    },
+    {
+      "volume_str": "10079446015",
+      "orderCount": 1926,
+      "lowPrice": 6.24,
+      "highPrice": 6.37,
+      "avgPrice": 6.33,
+      "volume": 10079446015,
+      "orderCount_str": "1926",
+      "date": "2016-01-14T00:00:00"
+    },
+    {
+      "volume_str": "9625054726",
+      "orderCount": 1880,
+      "lowPrice": 6.21,
+      "highPrice": 6.3,
+      "avgPrice": 6.26,
+      "volume": 9625054726,
+      "orderCount_str": "1880",
+      "date": "2016-01-15T00:00:00"
+    },
+    {
+      "volume_str": "10414349685",
+      "orderCount": 2244,
+      "lowPrice": 6.24,
+      "highPrice": 6.36,
+      "avgPrice": 6.33,
+      "volume": 10414349685,
+      "orderCount_str": "2244",
+      "date": "2016-01-16T00:00:00"
+    },
+    {
+      "volume_str": "12301231544",
+      "orderCount": 2338,
+      "lowPrice": 6.28,
+      "highPrice": 6.36,
+      "avgPrice": 6.35,
+      "volume": 12301231544,
+      "orderCount_str": "2338",
+      "date": "2016-01-17T00:00:00"
+    },
+    {
+      "volume_str": "9548042271",
+      "orderCount": 1989,
+      "lowPrice": 6.25,
+      "highPrice": 6.35,
+      "avgPrice": 6.32,
+      "volume": 9548042271,
+      "orderCount_str": "1989",
+      "date": "2016-01-18T00:00:00"
+    },
+    {
+      "volume_str": "8281035030",
+      "orderCount": 2020,
+      "lowPrice": 6.26,
+      "highPrice": 6.36,
+      "avgPrice": 6.35,
+      "volume": 8281035030,
+      "orderCount_str": "2020",
+      "date": "2016-01-19T00:00:00"
+    },
+    {
+      "volume_str": "12368407645",
+      "orderCount": 1895,
+      "lowPrice": 6.28,
+      "highPrice": 6.4,
+      "avgPrice": 6.38,
+      "volume": 12368407645,
+      "orderCount_str": "1895",
+      "date": "2016-01-20T00:00:00"
+    },
+    {
+      "volume_str": "14638434709",
+      "orderCount": 1839,
+      "lowPrice": 6.29,
+      "highPrice": 6.45,
+      "avgPrice": 6.38,
+      "volume": 14638434709,
+      "orderCount_str": "1839",
+      "date": "2016-01-21T00:00:00"
+    },
+    {
+      "volume_str": "15174096607",
+      "orderCount": 1905,
+      "lowPrice": 6.39,
+      "highPrice": 6.62,
+      "avgPrice": 6.52,
+      "volume": 15174096607,
+      "orderCount_str": "1905",
+      "date": "2016-01-22T00:00:00"
+    },
+    {
+      "volume_str": "12571957989",
+      "orderCount": 2166,
+      "lowPrice": 6.53,
+      "highPrice": 6.73,
+      "avgPrice": 6.6,
+      "volume": 12571957989,
+      "orderCount_str": "2166",
+      "date": "2016-01-23T00:00:00"
+    },
+    {
+      "volume_str": "11446849446",
+      "orderCount": 2358,
+      "lowPrice": 6.29,
+      "highPrice": 6.55,
+      "avgPrice": 6.51,
+      "volume": 11446849446,
+      "orderCount_str": "2358",
+      "date": "2016-01-24T00:00:00"
+    },
+    {
+      "volume_str": "10968550713",
+      "orderCount": 1929,
+      "lowPrice": 6.31,
+      "highPrice": 6.51,
+      "avgPrice": 6.4,
+      "volume": 10968550713,
+      "orderCount_str": "1929",
+      "date": "2016-01-25T00:00:00"
+    },
+    {
+      "volume_str": "6499488422",
+      "orderCount": 1703,
+      "lowPrice": 6.27,
+      "highPrice": 6.34,
+      "avgPrice": 6.31,
+      "volume": 6499488422,
+      "orderCount_str": "1703",
+      "date": "2016-01-26T00:00:00"
+    },
+    {
+      "volume_str": "12301972630",
+      "orderCount": 1748,
+      "lowPrice": 6.26,
+      "highPrice": 6.37,
+      "avgPrice": 6.28,
+      "volume": 12301972630,
+      "orderCount_str": "1748",
+      "date": "2016-01-27T00:00:00"
+    },
+    {
+      "volume_str": "10713180560",
+      "orderCount": 1850,
+      "lowPrice": 6.3,
+      "highPrice": 6.4,
+      "avgPrice": 6.38,
+      "volume": 10713180560,
+      "orderCount_str": "1850",
+      "date": "2016-01-28T00:00:00"
+    },
+    {
+      "volume_str": "9290615390",
+      "orderCount": 1804,
+      "lowPrice": 6.26,
+      "highPrice": 6.43,
+      "avgPrice": 6.37,
+      "volume": 9290615390,
+      "orderCount_str": "1804",
+      "date": "2016-01-29T00:00:00"
+    },
+    {
+      "volume_str": "17719189937",
+      "orderCount": 2334,
+      "lowPrice": 6.34,
+      "highPrice": 6.59,
+      "avgPrice": 6.54,
+      "volume": 17719189937,
+      "orderCount_str": "2334",
+      "date": "2016-01-30T00:00:00"
+    },
+    {
+      "volume_str": "9558688634",
+      "orderCount": 2355,
+      "lowPrice": 6.32,
+      "highPrice": 6.41,
+      "avgPrice": 6.35,
+      "volume": 9558688634,
+      "orderCount_str": "2355",
+      "date": "2016-01-31T00:00:00"
+    },
+    {
+      "volume_str": "9181573937",
+      "orderCount": 2049,
+      "lowPrice": 6.34,
+      "highPrice": 6.36,
+      "avgPrice": 6.36,
+      "volume": 9181573937,
+      "orderCount_str": "2049",
+      "date": "2016-02-01T00:00:00"
+    },
+    {
+      "volume_str": "11615817399",
+      "orderCount": 1933,
+      "lowPrice": 6.31,
+      "highPrice": 6.36,
+      "avgPrice": 6.34,
+      "volume": 11615817399,
+      "orderCount_str": "1933",
+      "date": "2016-02-02T00:00:00"
+    },
+    {
+      "volume_str": "12306417809",
+      "orderCount": 1883,
+      "lowPrice": 6.32,
+      "highPrice": 6.46,
+      "avgPrice": 6.38,
+      "volume": 12306417809,
+      "orderCount_str": "1883",
+      "date": "2016-02-03T00:00:00"
+    },
+    {
+      "volume_str": "10925857862",
+      "orderCount": 1993,
+      "lowPrice": 6.26,
+      "highPrice": 6.44,
+      "avgPrice": 6.33,
+      "volume": 10925857862,
+      "orderCount_str": "1993",
+      "date": "2016-02-04T00:00:00"
+    },
+    {
+      "volume_str": "8061014741",
+      "orderCount": 1719,
+      "lowPrice": 6.31,
+      "highPrice": 6.4,
+      "avgPrice": 6.37,
+      "volume": 8061014741,
+      "orderCount_str": "1719",
+      "date": "2016-02-05T00:00:00"
+    },
+    {
+      "volume_str": "12877325572",
+      "orderCount": 2072,
+      "lowPrice": 6.3,
+      "highPrice": 6.42,
+      "avgPrice": 6.38,
+      "volume": 12877325572,
+      "orderCount_str": "2072",
+      "date": "2016-02-06T00:00:00"
+    },
+    {
+      "volume_str": "13299723811",
+      "orderCount": 2413,
+      "lowPrice": 6.28,
+      "highPrice": 6.45,
+      "avgPrice": 6.37,
+      "volume": 13299723811,
+      "orderCount_str": "2413",
+      "date": "2016-02-07T00:00:00"
+    },
+    {
+      "volume_str": "7060469962",
+      "orderCount": 1864,
+      "lowPrice": 6.27,
+      "highPrice": 6.36,
+      "avgPrice": 6.34,
+      "volume": 7060469962,
+      "orderCount_str": "1864",
+      "date": "2016-02-08T00:00:00"
+    },
+    {
+      "volume_str": "13967809412",
+      "orderCount": 2026,
+      "lowPrice": 6.25,
+      "highPrice": 6.39,
+      "avgPrice": 6.29,
+      "volume": 13967809412,
+      "orderCount_str": "2026",
+      "date": "2016-02-09T00:00:00"
+    },
+    {
+      "volume_str": "10122334707",
+      "orderCount": 2039,
+      "lowPrice": 6.18,
+      "highPrice": 6.27,
+      "avgPrice": 6.22,
+      "volume": 10122334707,
+      "orderCount_str": "2039",
+      "date": "2016-02-10T00:00:00"
+    },
+    {
+      "volume_str": "10528934354",
+      "orderCount": 1988,
+      "lowPrice": 6.14,
+      "highPrice": 6.21,
+      "avgPrice": 6.16,
+      "volume": 10528934354,
+      "orderCount_str": "1988",
+      "date": "2016-02-11T00:00:00"
+    },
+    {
+      "volume_str": "11022641664",
+      "orderCount": 2088,
+      "lowPrice": 6.11,
+      "highPrice": 6.26,
+      "avgPrice": 6.23,
+      "volume": 11022641664,
+      "orderCount_str": "2088",
+      "date": "2016-02-12T00:00:00"
+    },
+    {
+      "volume_str": "11341542565",
+      "orderCount": 2259,
+      "lowPrice": 6.25,
+      "highPrice": 6.35,
+      "avgPrice": 6.32,
+      "volume": 11341542565,
+      "orderCount_str": "2259",
+      "date": "2016-02-13T00:00:00"
+    },
+    {
+      "volume_str": "17051466579",
+      "orderCount": 2562,
+      "lowPrice": 6.11,
+      "highPrice": 6.24,
+      "avgPrice": 6.15,
+      "volume": 17051466579,
+      "orderCount_str": "2562",
+      "date": "2016-02-14T00:00:00"
+    },
+    {
+      "volume_str": "10451744648",
+      "orderCount": 2180,
+      "lowPrice": 6.07,
+      "highPrice": 6.18,
+      "avgPrice": 6.15,
+      "volume": 10451744648,
+      "orderCount_str": "2180",
+      "date": "2016-02-15T00:00:00"
+    },
+    {
+      "volume_str": "11033989408",
+      "orderCount": 1856,
+      "lowPrice": 6.02,
+      "highPrice": 6.13,
+      "avgPrice": 6.05,
+      "volume": 11033989408,
+      "orderCount_str": "1856",
+      "date": "2016-02-16T00:00:00"
+    },
+    {
+      "volume_str": "8970759250",
+      "orderCount": 1875,
+      "lowPrice": 5.97,
+      "highPrice": 6.05,
+      "avgPrice": 6.01,
+      "volume": 8970759250,
+      "orderCount_str": "1875",
+      "date": "2016-02-17T00:00:00"
+    },
+    {
+      "volume_str": "15515365893",
+      "orderCount": 1994,
+      "lowPrice": 6.01,
+      "highPrice": 6.19,
+      "avgPrice": 6.14,
+      "volume": 15515365893,
+      "orderCount_str": "1994",
+      "date": "2016-02-18T00:00:00"
+    },
+    {
+      "volume_str": "15474899956",
+      "orderCount": 1924,
+      "lowPrice": 6.06,
+      "highPrice": 6.22,
+      "avgPrice": 6.2,
+      "volume": 15474899956,
+      "orderCount_str": "1924",
+      "date": "2016-02-19T00:00:00"
+    },
+    {
+      "volume_str": "15229599097",
+      "orderCount": 2199,
+      "lowPrice": 6.11,
+      "highPrice": 6.21,
+      "avgPrice": 6.15,
+      "volume": 15229599097,
+      "orderCount_str": "2199",
+      "date": "2016-02-20T00:00:00"
+    },
+    {
+      "volume_str": "12070113167",
+      "orderCount": 2399,
+      "lowPrice": 6.07,
+      "highPrice": 6.17,
+      "avgPrice": 6.08,
+      "volume": 12070113167,
+      "orderCount_str": "2399",
+      "date": "2016-02-21T00:00:00"
+    },
+    {
+      "volume_str": "15627339223",
+      "orderCount": 2159,
+      "lowPrice": 6.04,
+      "highPrice": 6.11,
+      "avgPrice": 6.08,
+      "volume": 15627339223,
+      "orderCount_str": "2159",
+      "date": "2016-02-22T00:00:00"
+    },
+    {
+      "volume_str": "13278402351",
+      "orderCount": 2027,
+      "lowPrice": 6.09,
+      "highPrice": 6.16,
+      "avgPrice": 6.14,
+      "volume": 13278402351,
+      "orderCount_str": "2027",
+      "date": "2016-02-23T00:00:00"
+    },
+    {
+      "volume_str": "11522871304",
+      "orderCount": 1698,
+      "lowPrice": 6.06,
+      "highPrice": 6.17,
+      "avgPrice": 6.15,
+      "volume": 11522871304,
+      "orderCount_str": "1698",
+      "date": "2016-02-24T00:00:00"
+    },
+    {
+      "volume_str": "15431236695",
+      "orderCount": 1976,
+      "lowPrice": 6.07,
+      "highPrice": 6.18,
+      "avgPrice": 6.13,
+      "volume": 15431236695,
+      "orderCount_str": "1976",
+      "date": "2016-02-25T00:00:00"
+    },
+    {
+      "volume_str": "10117908374",
+      "orderCount": 1401,
+      "lowPrice": 6.06,
+      "highPrice": 6.18,
+      "avgPrice": 6.09,
+      "volume": 10117908374,
+      "orderCount_str": "1401",
+      "date": "2016-02-26T00:00:00"
+    },
+    {
+      "volume_str": "9256806343",
+      "orderCount": 2236,
+      "lowPrice": 6.05,
+      "highPrice": 6.14,
+      "avgPrice": 6.13,
+      "volume": 9256806343,
+      "orderCount_str": "2236",
+      "date": "2016-02-27T00:00:00"
+    },
+    {
+      "volume_str": "13299452347",
+      "orderCount": 2548,
+      "lowPrice": 6.11,
+      "highPrice": 6.2,
+      "avgPrice": 6.17,
+      "volume": 13299452347,
+      "orderCount_str": "2548",
+      "date": "2016-02-28T00:00:00"
+    },
+    {
+      "volume_str": "4926960500",
+      "orderCount": 1078,
+      "lowPrice": 6.07,
+      "highPrice": 6.19,
+      "avgPrice": 6.08,
+      "volume": 4926960500,
+      "orderCount_str": "1078",
+      "date": "2016-02-29T00:00:00"
+    },
+    {
+      "volume_str": "16210538537",
+      "orderCount": 2057,
+      "lowPrice": 6.08,
+      "highPrice": 6.19,
+      "avgPrice": 6.14,
+      "volume": 16210538537,
+      "orderCount_str": "2057",
+      "date": "2016-03-01T00:00:00"
+    },
+    {
+      "volume_str": "10959870329",
+      "orderCount": 1780,
+      "lowPrice": 6.11,
+      "highPrice": 6.23,
+      "avgPrice": 6.17,
+      "volume": 10959870329,
+      "orderCount_str": "1780",
+      "date": "2016-03-02T00:00:00"
+    },
+    {
+      "volume_str": "8128439514",
+      "orderCount": 1865,
+      "lowPrice": 6.11,
+      "highPrice": 6.19,
+      "avgPrice": 6.17,
+      "volume": 8128439514,
+      "orderCount_str": "1865",
+      "date": "2016-03-03T00:00:00"
+    },
+    {
+      "volume_str": "12299632624",
+      "orderCount": 1720,
+      "lowPrice": 6.06,
+      "highPrice": 6.15,
+      "avgPrice": 6.08,
+      "volume": 12299632624,
+      "orderCount_str": "1720",
+      "date": "2016-03-04T00:00:00"
+    },
+    {
+      "volume_str": "12978588723",
+      "orderCount": 2212,
+      "lowPrice": 6.07,
+      "highPrice": 6.2,
+      "avgPrice": 6.1,
+      "volume": 12978588723,
+      "orderCount_str": "2212",
+      "date": "2016-03-05T00:00:00"
+    },
+    {
+      "volume_str": "10172349198",
+      "orderCount": 2298,
+      "lowPrice": 6.1,
+      "highPrice": 6.19,
+      "avgPrice": 6.17,
+      "volume": 10172349198,
+      "orderCount_str": "2298",
+      "date": "2016-03-06T00:00:00"
+    },
+    {
+      "volume_str": "7882463981",
+      "orderCount": 1963,
+      "lowPrice": 6.1,
+      "highPrice": 6.2,
+      "avgPrice": 6.18,
+      "volume": 7882463981,
+      "orderCount_str": "1963",
+      "date": "2016-03-07T00:00:00"
+    },
+    {
+      "volume_str": "7501055236",
+      "orderCount": 1838,
+      "lowPrice": 6.11,
+      "highPrice": 6.24,
+      "avgPrice": 6.21,
+      "volume": 7501055236,
+      "orderCount_str": "1838",
+      "date": "2016-03-08T00:00:00"
+    },
+    {
+      "volume_str": "6927011010",
+      "orderCount": 1724,
+      "lowPrice": 6.09,
+      "highPrice": 6.22,
+      "avgPrice": 6.22,
+      "volume": 6927011010,
+      "orderCount_str": "1724",
+      "date": "2016-03-09T00:00:00"
+    },
+    {
+      "volume_str": "8527860111",
+      "orderCount": 1713,
+      "lowPrice": 6.12,
+      "highPrice": 6.23,
+      "avgPrice": 6.22,
+      "volume": 8527860111,
+      "orderCount_str": "1713",
+      "date": "2016-03-10T00:00:00"
+    },
+    {
+      "volume_str": "9475685302",
+      "orderCount": 1706,
+      "lowPrice": 6.08,
+      "highPrice": 6.21,
+      "avgPrice": 6.17,
+      "volume": 9475685302,
+      "orderCount_str": "1706",
+      "date": "2016-03-11T00:00:00"
+    },
+    {
+      "volume_str": "10093627532",
+      "orderCount": 2224,
+      "lowPrice": 6.12,
+      "highPrice": 6.21,
+      "avgPrice": 6.2,
+      "volume": 10093627532,
+      "orderCount_str": "2224",
+      "date": "2016-03-12T00:00:00"
+    },
+    {
+      "volume_str": "10106305956",
+      "orderCount": 2309,
+      "lowPrice": 6.08,
+      "highPrice": 6.19,
+      "avgPrice": 6.13,
+      "volume": 10106305956,
+      "orderCount_str": "2309",
+      "date": "2016-03-13T00:00:00"
+    },
+    {
+      "volume_str": "8911383169",
+      "orderCount": 1955,
+      "lowPrice": 6.06,
+      "highPrice": 6.2,
+      "avgPrice": 6.12,
+      "volume": 8911383169,
+      "orderCount_str": "1955",
+      "date": "2016-03-14T00:00:00"
+    },
+    {
+      "volume_str": "10230349265",
+      "orderCount": 1776,
+      "lowPrice": 6.09,
+      "highPrice": 6.2,
+      "avgPrice": 6.19,
+      "volume": 10230349265,
+      "orderCount_str": "1776",
+      "date": "2016-03-15T00:00:00"
+    },
+    {
+      "volume_str": "12466861519",
+      "orderCount": 1750,
+      "lowPrice": 6.08,
+      "highPrice": 6.22,
+      "avgPrice": 6.19,
+      "volume": 12466861519,
+      "orderCount_str": "1750",
+      "date": "2016-03-16T00:00:00"
+    },
+    {
+      "volume_str": "10524388002",
+      "orderCount": 1621,
+      "lowPrice": 6.11,
+      "highPrice": 6.24,
+      "avgPrice": 6.23,
+      "volume": 10524388002,
+      "orderCount_str": "1621",
+      "date": "2016-03-17T00:00:00"
+    },
+    {
+      "volume_str": "8942467535",
+      "orderCount": 1783,
+      "lowPrice": 6.11,
+      "highPrice": 6.23,
+      "avgPrice": 6.21,
+      "volume": 8942467535,
+      "orderCount_str": "1783",
+      "date": "2016-03-18T00:00:00"
+    },
+    {
+      "volume_str": "10988950081",
+      "orderCount": 2189,
+      "lowPrice": 6.11,
+      "highPrice": 6.23,
+      "avgPrice": 6.14,
+      "volume": 10988950081,
+      "orderCount_str": "2189",
+      "date": "2016-03-19T00:00:00"
+    },
+    {
+      "volume_str": "14473265802",
+      "orderCount": 2321,
+      "lowPrice": 6.18,
+      "highPrice": 6.23,
+      "avgPrice": 6.22,
+      "volume": 14473265802,
+      "orderCount_str": "2321",
+      "date": "2016-03-20T00:00:00"
+    },
+    {
+      "volume_str": "16050649595",
+      "orderCount": 1993,
+      "lowPrice": 6.31,
+      "highPrice": 6.61,
+      "avgPrice": 6.38,
+      "volume": 16050649595,
+      "orderCount_str": "1993",
+      "date": "2016-03-21T00:00:00"
+    },
+    {
+      "volume_str": "9247994253",
+      "orderCount": 1867,
+      "lowPrice": 6.18,
+      "highPrice": 6.35,
+      "avgPrice": 6.32,
+      "volume": 9247994253,
+      "orderCount_str": "1867",
+      "date": "2016-03-22T00:00:00"
+    },
+    {
+      "volume_str": "9755460983",
+      "orderCount": 1834,
+      "lowPrice": 6.3,
+      "highPrice": 6.38,
+      "avgPrice": 6.37,
+      "volume": 9755460983,
+      "orderCount_str": "1834",
+      "date": "2016-03-23T00:00:00"
+    },
+    {
+      "volume_str": "10719806078",
+      "orderCount": 2011,
+      "lowPrice": 6.33,
+      "highPrice": 6.54,
+      "avgPrice": 6.39,
+      "volume": 10719806078,
+      "orderCount_str": "2011",
+      "date": "2016-03-24T00:00:00"
+    },
+    {
+      "volume_str": "12269753761",
+      "orderCount": 2135,
+      "lowPrice": 6.51,
+      "highPrice": 6.74,
+      "avgPrice": 6.57,
+      "volume": 12269753761,
+      "orderCount_str": "2135",
+      "date": "2016-03-25T00:00:00"
+    },
+    {
+      "volume_str": "14924926693",
+      "orderCount": 2344,
+      "lowPrice": 6.4,
+      "highPrice": 6.66,
+      "avgPrice": 6.55,
+      "volume": 14924926693,
+      "orderCount_str": "2344",
+      "date": "2016-03-26T00:00:00"
+    },
+    {
+      "volume_str": "14250204994",
+      "orderCount": 2349,
+      "lowPrice": 6.4,
+      "highPrice": 6.58,
+      "avgPrice": 6.48,
+      "volume": 14250204994,
+      "orderCount_str": "2349",
+      "date": "2016-03-27T00:00:00"
+    },
+    {
+      "volume_str": "16962241941",
+      "orderCount": 2308,
+      "lowPrice": 6.35,
+      "highPrice": 6.43,
+      "avgPrice": 6.39,
+      "volume": 16962241941,
+      "orderCount_str": "2308",
+      "date": "2016-03-28T00:00:00"
+    },
+    {
+      "volume_str": "20319989135",
+      "orderCount": 2210,
+      "lowPrice": 6.37,
+      "highPrice": 6.42,
+      "avgPrice": 6.39,
+      "volume": 20319989135,
+      "orderCount_str": "2210",
+      "date": "2016-03-29T00:00:00"
+    },
+    {
+      "volume_str": "24287753020",
+      "orderCount": 2283,
+      "lowPrice": 6.36,
+      "highPrice": 6.54,
+      "avgPrice": 6.44,
+      "volume": 24287753020,
+      "orderCount_str": "2283",
+      "date": "2016-03-30T00:00:00"
+    },
+    {
+      "volume_str": "10343909947",
+      "orderCount": 2212,
+      "lowPrice": 6.49,
+      "highPrice": 6.76,
+      "avgPrice": 6.62,
+      "volume": 10343909947,
+      "orderCount_str": "2212",
+      "date": "2016-03-31T00:00:00"
+    },
+    {
+      "volume_str": "15551862239",
+      "orderCount": 2373,
+      "lowPrice": 6.52,
+      "highPrice": 6.65,
+      "avgPrice": 6.62,
+      "volume": 15551862239,
+      "orderCount_str": "2373",
+      "date": "2016-04-01T00:00:00"
+    },
+    {
+      "volume_str": "12937245066",
+      "orderCount": 2710,
+      "lowPrice": 6.64,
+      "highPrice": 6.85,
+      "avgPrice": 6.82,
+      "volume": 12937245066,
+      "orderCount_str": "2710",
+      "date": "2016-04-02T00:00:00"
+    },
+    {
+      "volume_str": "19633272698",
+      "orderCount": 2881,
+      "lowPrice": 6.75,
+      "highPrice": 6.82,
+      "avgPrice": 6.79,
+      "volume": 19633272698,
+      "orderCount_str": "2881",
+      "date": "2016-04-03T00:00:00"
+    },
+    {
+      "volume_str": "16699803390",
+      "orderCount": 2392,
+      "lowPrice": 6.47,
+      "highPrice": 6.74,
+      "avgPrice": 6.52,
+      "volume": 16699803390,
+      "orderCount_str": "2392",
+      "date": "2016-04-04T00:00:00"
+    },
+    {
+      "volume_str": "22554922628",
+      "orderCount": 2266,
+      "lowPrice": 6.47,
+      "highPrice": 6.54,
+      "avgPrice": 6.51,
+      "volume": 22554922628,
+      "orderCount_str": "2266",
+      "date": "2016-04-05T00:00:00"
+    },
+    {
+      "volume_str": "14319471377",
+      "orderCount": 2293,
+      "lowPrice": 6.5,
+      "highPrice": 6.51,
+      "avgPrice": 6.5,
+      "volume": 14319471377,
+      "orderCount_str": "2293",
+      "date": "2016-04-06T00:00:00"
+    },
+    {
+      "volume_str": "14682841496",
+      "orderCount": 2276,
+      "lowPrice": 5.92,
+      "highPrice": 6.7,
+      "avgPrice": 6.54,
+      "volume": 14682841496,
+      "orderCount_str": "2276",
+      "date": "2016-04-07T00:00:00"
+    },
+    {
+      "volume_str": "18958956086",
+      "orderCount": 2216,
+      "lowPrice": 6.53,
+      "highPrice": 6.57,
+      "avgPrice": 6.54,
+      "volume": 18958956086,
+      "orderCount_str": "2216",
+      "date": "2016-04-08T00:00:00"
+    },
+    {
+      "volume_str": "34681348076",
+      "orderCount": 2688,
+      "lowPrice": 6.5,
+      "highPrice": 6.73,
+      "avgPrice": 6.56,
+      "volume": 34681348076,
+      "orderCount_str": "2688",
+      "date": "2016-04-09T00:00:00"
+    },
+    {
+      "volume_str": "39216829743",
+      "orderCount": 2869,
+      "lowPrice": 6.41,
+      "highPrice": 6.5,
+      "avgPrice": 6.44,
+      "volume": 39216829743,
+      "orderCount_str": "2869",
+      "date": "2016-04-10T00:00:00"
+    },
+    {
+      "volume_str": "11274708657",
+      "orderCount": 2278,
+      "lowPrice": 6.4,
+      "highPrice": 6.41,
+      "avgPrice": 6.41,
+      "volume": 11274708657,
+      "orderCount_str": "2278",
+      "date": "2016-04-11T00:00:00"
+    },
+    {
+      "volume_str": "15035715863",
+      "orderCount": 2172,
+      "lowPrice": 6.23,
+      "highPrice": 6.33,
+      "avgPrice": 6.24,
+      "volume": 15035715863,
+      "orderCount_str": "2172",
+      "date": "2016-04-12T00:00:00"
+    },
+    {
+      "volume_str": "21525969519",
+      "orderCount": 2107,
+      "lowPrice": 6.12,
+      "highPrice": 6.39,
+      "avgPrice": 6.24,
+      "volume": 21525969519,
+      "orderCount_str": "2107",
+      "date": "2016-04-13T00:00:00"
+    },
+    {
+      "volume_str": "10950534951",
+      "orderCount": 2044,
+      "lowPrice": 6.29,
+      "highPrice": 6.36,
+      "avgPrice": 6.3,
+      "volume": 10950534951,
+      "orderCount_str": "2044",
+      "date": "2016-04-14T00:00:00"
+    },
+    {
+      "volume_str": "9990148881",
+      "orderCount": 2076,
+      "lowPrice": 6.24,
+      "highPrice": 6.37,
+      "avgPrice": 6.31,
+      "volume": 9990148881,
+      "orderCount_str": "2076",
+      "date": "2016-04-15T00:00:00"
+    },
+    {
+      "volume_str": "11408909454",
+      "orderCount": 2546,
+      "lowPrice": 6.28,
+      "highPrice": 6.39,
+      "avgPrice": 6.31,
+      "volume": 11408909454,
+      "orderCount_str": "2546",
+      "date": "2016-04-16T00:00:00"
+    },
+    {
+      "volume_str": "22213953644",
+      "orderCount": 2539,
+      "lowPrice": 6.36,
+      "highPrice": 6.6,
+      "avgPrice": 6.45,
+      "volume": 22213953644,
+      "orderCount_str": "2539",
+      "date": "2016-04-17T00:00:00"
+    },
+    {
+      "volume_str": "9860852965",
+      "orderCount": 2117,
+      "lowPrice": 6.21,
+      "highPrice": 6.4,
+      "avgPrice": 6.26,
+      "volume": 9860852965,
+      "orderCount_str": "2117",
+      "date": "2016-04-18T00:00:00"
+    },
+    {
+      "volume_str": "12023465109",
+      "orderCount": 1881,
+      "lowPrice": 6.15,
+      "highPrice": 6.26,
+      "avgPrice": 6.17,
+      "volume": 12023465109,
+      "orderCount_str": "1881",
+      "date": "2016-04-19T00:00:00"
+    },
+    {
+      "volume_str": "13651879654",
+      "orderCount": 2108,
+      "lowPrice": 6.11,
+      "highPrice": 6.13,
+      "avgPrice": 6.12,
+      "volume": 13651879654,
+      "orderCount_str": "2108",
+      "date": "2016-04-20T00:00:00"
+    },
+    {
+      "volume_str": "13699726125",
+      "orderCount": 2006,
+      "lowPrice": 6.12,
+      "highPrice": 6.2,
+      "avgPrice": 6.13,
+      "volume": 13699726125,
+      "orderCount_str": "2006",
+      "date": "2016-04-21T00:00:00"
+    },
+    {
+      "volume_str": "11972956864",
+      "orderCount": 2122,
+      "lowPrice": 6.21,
+      "highPrice": 6.26,
+      "avgPrice": 6.23,
+      "volume": 11972956864,
+      "orderCount_str": "2122",
+      "date": "2016-04-22T00:00:00"
+    },
+    {
+      "volume_str": "12814015080",
+      "orderCount": 2460,
+      "lowPrice": 6.15,
+      "highPrice": 6.26,
+      "avgPrice": 6.24,
+      "volume": 12814015080,
+      "orderCount_str": "2460",
+      "date": "2016-04-23T00:00:00"
+    },
+    {
+      "volume_str": "15515733976",
+      "orderCount": 2878,
+      "lowPrice": 6.13,
+      "highPrice": 6.27,
+      "avgPrice": 6.23,
+      "volume": 15515733976,
+      "orderCount_str": "2878",
+      "date": "2016-04-24T00:00:00"
+    },
+    {
+      "volume_str": "15192737951",
+      "orderCount": 2254,
+      "lowPrice": 6.11,
+      "highPrice": 6.23,
+      "avgPrice": 6.19,
+      "volume": 15192737951,
+      "orderCount_str": "2254",
+      "date": "2016-04-25T00:00:00"
+    },
+    {
+      "volume_str": "8219662993",
+      "orderCount": 2123,
+      "lowPrice": 6.15,
+      "highPrice": 6.21,
+      "avgPrice": 6.19,
+      "volume": 8219662993,
+      "orderCount_str": "2123",
+      "date": "2016-04-26T00:00:00"
+    },
+    {
+      "volume_str": "12507215564",
+      "orderCount": 2514,
+      "lowPrice": 6.23,
+      "highPrice": 6.39,
+      "avgPrice": 6.29,
+      "volume": 12507215564,
+      "orderCount_str": "2514",
+      "date": "2016-04-27T00:00:00"
+    },
+    {
+      "volume_str": "11598946992",
+      "orderCount": 2692,
+      "lowPrice": 6.19,
+      "highPrice": 6.48,
+      "avgPrice": 6.44,
+      "volume": 11598946992,
+      "orderCount_str": "2692",
+      "date": "2016-04-28T00:00:00"
+    },
+    {
+      "volume_str": "12692546559",
+      "orderCount": 2817,
+      "lowPrice": 6.27,
+      "highPrice": 6.46,
+      "avgPrice": 6.44,
+      "volume": 12692546559,
+      "orderCount_str": "2817",
+      "date": "2016-04-29T00:00:00"
+    },
+    {
+      "volume_str": "16551755816",
+      "orderCount": 3274,
+      "lowPrice": 6.17,
+      "highPrice": 6.44,
+      "avgPrice": 6.41,
+      "volume": 16551755816,
+      "orderCount_str": "3274",
+      "date": "2016-04-30T00:00:00"
+    },
+    {
+      "volume_str": "15503045052",
+      "orderCount": 3568,
+      "lowPrice": 6.17,
+      "highPrice": 6.34,
+      "avgPrice": 6.32,
+      "volume": 15503045052,
+      "orderCount_str": "3568",
+      "date": "2016-05-01T00:00:00"
+    },
+    {
+      "volume_str": "16463684284",
+      "orderCount": 3283,
+      "lowPrice": 6.25,
+      "highPrice": 6.36,
+      "avgPrice": 6.33,
+      "volume": 16463684284,
+      "orderCount_str": "3283",
+      "date": "2016-05-02T00:00:00"
+    },
+    {
+      "volume_str": "20200145817",
+      "orderCount": 3026,
+      "lowPrice": 6.13,
+      "highPrice": 6.26,
+      "avgPrice": 6.22,
+      "volume": 20200145817,
+      "orderCount_str": "3026",
+      "date": "2016-05-03T00:00:00"
+    },
+    {
+      "volume_str": "24238457679",
+      "orderCount": 2721,
+      "lowPrice": 6.12,
+      "highPrice": 6.47,
+      "avgPrice": 6.36,
+      "volume": 24238457679,
+      "orderCount_str": "2721",
+      "date": "2016-05-04T00:00:00"
+    },
+    {
+      "volume_str": "13879346025",
+      "orderCount": 2991,
+      "lowPrice": 6.21,
+      "highPrice": 6.39,
+      "avgPrice": 6.37,
+      "volume": 13879346025,
+      "orderCount_str": "2991",
+      "date": "2016-05-05T00:00:00"
+    },
+    {
+      "volume_str": "26859754652",
+      "orderCount": 3071,
+      "lowPrice": 6.18,
+      "highPrice": 6.31,
+      "avgPrice": 6.3,
+      "volume": 26859754652,
+      "orderCount_str": "3071",
+      "date": "2016-05-06T00:00:00"
+    },
+    {
+      "volume_str": "15656202392",
+      "orderCount": 3508,
+      "lowPrice": 6.19,
+      "highPrice": 6.38,
+      "avgPrice": 6.35,
+      "volume": 15656202392,
+      "orderCount_str": "3508",
+      "date": "2016-05-07T00:00:00"
+    },
+    {
+      "volume_str": "17680374506",
+      "orderCount": 3803,
+      "lowPrice": 6.1,
+      "highPrice": 6.34,
+      "avgPrice": 6.31,
+      "volume": 17680374506,
+      "orderCount_str": "3803",
+      "date": "2016-05-08T00:00:00"
+    },
+    {
+      "volume_str": "11930341772",
+      "orderCount": 3337,
+      "lowPrice": 6.21,
+      "highPrice": 6.36,
+      "avgPrice": 6.34,
+      "volume": 11930341772,
+      "orderCount_str": "3337",
+      "date": "2016-05-09T00:00:00"
+    },
+    {
+      "volume_str": "17416540217",
+      "orderCount": 2907,
+      "lowPrice": 6.15,
+      "highPrice": 6.31,
+      "avgPrice": 6.24,
+      "volume": 17416540217,
+      "orderCount_str": "2907",
+      "date": "2016-05-10T00:00:00"
+    },
+    {
+      "volume_str": "15410424038",
+      "orderCount": 2725,
+      "lowPrice": 6.22,
+      "highPrice": 6.3,
+      "avgPrice": 6.28,
+      "volume": 15410424038,
+      "orderCount_str": "2725",
+      "date": "2016-05-11T00:00:00"
+    },
+    {
+      "volume_str": "19865276734",
+      "orderCount": 2449,
+      "lowPrice": 4.03,
+      "highPrice": 6.3,
+      "avgPrice": 6.18,
+      "volume": 19865276734,
+      "orderCount_str": "2449",
+      "date": "2016-05-12T00:00:00"
+    },
+    {
+      "volume_str": "13068865124",
+      "orderCount": 2513,
+      "lowPrice": 6.14,
+      "highPrice": 6.26,
+      "avgPrice": 6.24,
+      "volume": 13068865124,
+      "orderCount_str": "2513",
+      "date": "2016-05-13T00:00:00"
+    },
+    {
+      "volume_str": "13173212262",
+      "orderCount": 3046,
+      "lowPrice": 6.17,
+      "highPrice": 6.3,
+      "avgPrice": 6.26,
+      "volume": 13173212262,
+      "orderCount_str": "3046",
+      "date": "2016-05-14T00:00:00"
+    },
+    {
+      "volume_str": "21869656928",
+      "orderCount": 3217,
+      "lowPrice": 6.19,
+      "highPrice": 6.3,
+      "avgPrice": 6.25,
+      "volume": 21869656928,
+      "orderCount_str": "3217",
+      "date": "2016-05-15T00:00:00"
+    },
+    {
+      "volume_str": "21816560762",
+      "orderCount": 2828,
+      "lowPrice": 6.23,
+      "highPrice": 6.35,
+      "avgPrice": 6.26,
+      "volume": 21816560762,
+      "orderCount_str": "2828",
+      "date": "2016-05-16T00:00:00"
+    },
+    {
+      "volume_str": "24375237310",
+      "orderCount": 2574,
+      "lowPrice": 6.05,
+      "highPrice": 6.25,
+      "avgPrice": 6.15,
+      "volume": 24375237310,
+      "orderCount_str": "2574",
+      "date": "2016-05-17T00:00:00"
+    },
+    {
+      "volume_str": "20486122986",
+      "orderCount": 2406,
+      "lowPrice": 6.15,
+      "highPrice": 6.19,
+      "avgPrice": 6.17,
+      "volume": 20486122986,
+      "orderCount_str": "2406",
+      "date": "2016-05-18T00:00:00"
+    },
+    {
+      "volume_str": "21295911243",
+      "orderCount": 2281,
+      "lowPrice": 6.02,
+      "highPrice": 6.06,
+      "avgPrice": 6.04,
+      "volume": 21295911243,
+      "orderCount_str": "2281",
+      "date": "2016-05-19T00:00:00"
+    },
+    {
+      "volume_str": "25648490513",
+      "orderCount": 2415,
+      "lowPrice": 3.11,
+      "highPrice": 6.05,
+      "avgPrice": 6.02,
+      "volume": 25648490513,
+      "orderCount_str": "2415",
+      "date": "2016-05-20T00:00:00"
+    },
+    {
+      "volume_str": "12936649429",
+      "orderCount": 2769,
+      "lowPrice": 6.02,
+      "highPrice": 6.06,
+      "avgPrice": 6.05,
+      "volume": 12936649429,
+      "orderCount_str": "2769",
+      "date": "2016-05-21T00:00:00"
+    },
+    {
+      "volume_str": "19134309594",
+      "orderCount": 2892,
+      "lowPrice": 6.0,
+      "highPrice": 6.2,
+      "avgPrice": 6.06,
+      "volume": 19134309594,
+      "orderCount_str": "2892",
+      "date": "2016-05-22T00:00:00"
+    },
+    {
+      "volume_str": "10517860568",
+      "orderCount": 2370,
+      "lowPrice": 6.06,
+      "highPrice": 6.16,
+      "avgPrice": 6.1,
+      "volume": 10517860568,
+      "orderCount_str": "2370",
+      "date": "2016-05-23T00:00:00"
+    },
+    {
+      "volume_str": "14895785047",
+      "orderCount": 2368,
+      "lowPrice": 6.1,
+      "highPrice": 6.13,
+      "avgPrice": 6.11,
+      "volume": 14895785047,
+      "orderCount_str": "2368",
+      "date": "2016-05-24T00:00:00"
+    },
+    {
+      "volume_str": "18306938290",
+      "orderCount": 2182,
+      "lowPrice": 6.04,
+      "highPrice": 6.17,
+      "avgPrice": 6.15,
+      "volume": 18306938290,
+      "orderCount_str": "2182",
+      "date": "2016-05-25T00:00:00"
+    },
+    {
+      "volume_str": "13464077023",
+      "orderCount": 2143,
+      "lowPrice": 6.06,
+      "highPrice": 6.21,
+      "avgPrice": 6.16,
+      "volume": 13464077023,
+      "orderCount_str": "2143",
+      "date": "2016-05-26T00:00:00"
+    },
+    {
+      "volume_str": "9952049192",
+      "orderCount": 2098,
+      "lowPrice": 6.05,
+      "highPrice": 6.21,
+      "avgPrice": 6.16,
+      "volume": 9952049192,
+      "orderCount_str": "2098",
+      "date": "2016-05-27T00:00:00"
+    },
+    {
+      "volume_str": "11364370367",
+      "orderCount": 2606,
+      "lowPrice": 6.0,
+      "highPrice": 6.25,
+      "avgPrice": 6.22,
+      "volume": 11364370367,
+      "orderCount_str": "2606",
+      "date": "2016-05-28T00:00:00"
+    },
+    {
+      "volume_str": "12878049481",
+      "orderCount": 2443,
+      "lowPrice": 5.97,
+      "highPrice": 6.18,
+      "avgPrice": 6.15,
+      "volume": 12878049481,
+      "orderCount_str": "2443",
+      "date": "2016-05-29T00:00:00"
+    },
+    {
+      "volume_str": "14271569805",
+      "orderCount": 2272,
+      "lowPrice": 6.01,
+      "highPrice": 6.22,
+      "avgPrice": 6.15,
+      "volume": 14271569805,
+      "orderCount_str": "2272",
+      "date": "2016-05-30T00:00:00"
+    },
+    {
+      "volume_str": "8214745731",
+      "orderCount": 1929,
+      "lowPrice": 5.98,
+      "highPrice": 6.21,
+      "avgPrice": 6.18,
+      "volume": 8214745731,
+      "orderCount_str": "1929",
+      "date": "2016-05-31T00:00:00"
+    },
+    {
+      "volume_str": "9088747139",
+      "orderCount": 2055,
+      "lowPrice": 6.09,
+      "highPrice": 6.2,
+      "avgPrice": 6.17,
+      "volume": 9088747139,
+      "orderCount_str": "2055",
+      "date": "2016-06-01T00:00:00"
+    },
+    {
+      "volume_str": "11074798303",
+      "orderCount": 1980,
+      "lowPrice": 5.95,
+      "highPrice": 6.15,
+      "avgPrice": 6.13,
+      "volume": 11074798303,
+      "orderCount_str": "1980",
+      "date": "2016-06-02T00:00:00"
+    },
+    {
+      "volume_str": "8943529064",
+      "orderCount": 2040,
+      "lowPrice": 5.8,
+      "highPrice": 6.15,
+      "avgPrice": 6.13,
+      "volume": 8943529064,
+      "orderCount_str": "2040",
+      "date": "2016-06-03T00:00:00"
+    },
+    {
+      "volume_str": "10002420209",
+      "orderCount": 2321,
+      "lowPrice": 5.76,
+      "highPrice": 6.06,
+      "avgPrice": 6.04,
+      "volume": 10002420209,
+      "orderCount_str": "2321",
+      "date": "2016-06-04T00:00:00"
+    },
+    {
+      "volume_str": "13404002641",
+      "orderCount": 2470,
+      "lowPrice": 5.93,
+      "highPrice": 6.09,
+      "avgPrice": 6.06,
+      "volume": 13404002641,
+      "orderCount_str": "2470",
+      "date": "2016-06-05T00:00:00"
+    },
+    {
+      "volume_str": "11354552049",
+      "orderCount": 1930,
+      "lowPrice": 5.9,
+      "highPrice": 6.07,
+      "avgPrice": 5.93,
+      "volume": 11354552049,
+      "orderCount_str": "1930",
+      "date": "2016-06-06T00:00:00"
+    },
+    {
+      "volume_str": "11842662560",
+      "orderCount": 1965,
+      "lowPrice": 5.85,
+      "highPrice": 6.02,
+      "avgPrice": 5.98,
+      "volume": 11842662560,
+      "orderCount_str": "1965",
+      "date": "2016-06-07T00:00:00"
+    },
+    {
+      "volume_str": "9326546103",
+      "orderCount": 2089,
+      "lowPrice": 5.83,
+      "highPrice": 6.03,
+      "avgPrice": 6.01,
+      "volume": 9326546103,
+      "orderCount_str": "2089",
+      "date": "2016-06-08T00:00:00"
+    },
+    {
+      "volume_str": "9486193960",
+      "orderCount": 1929,
+      "lowPrice": 5.98,
+      "highPrice": 6.0,
+      "avgPrice": 5.99,
+      "volume": 9486193960,
+      "orderCount_str": "1929",
+      "date": "2016-06-09T00:00:00"
+    },
+    {
+      "volume_str": "8441881704",
+      "orderCount": 1973,
+      "lowPrice": 5.75,
+      "highPrice": 5.96,
+      "avgPrice": 5.89,
+      "volume": 8441881704,
+      "orderCount_str": "1973",
+      "date": "2016-06-10T00:00:00"
+    },
+    {
+      "volume_str": "11133341625",
+      "orderCount": 2297,
+      "lowPrice": 5.89,
+      "highPrice": 6.02,
+      "avgPrice": 5.98,
+      "volume": 11133341625,
+      "orderCount_str": "2297",
+      "date": "2016-06-11T00:00:00"
+    },
+    {
+      "volume_str": "11541139068",
+      "orderCount": 2470,
+      "lowPrice": 5.82,
+      "highPrice": 5.98,
+      "avgPrice": 5.96,
+      "volume": 11541139068,
+      "orderCount_str": "2470",
+      "date": "2016-06-12T00:00:00"
+    },
+    {
+      "volume_str": "9729846135",
+      "orderCount": 2178,
+      "lowPrice": 5.94,
+      "highPrice": 5.96,
+      "avgPrice": 5.95,
+      "volume": 9729846135,
+      "orderCount_str": "2178",
+      "date": "2016-06-13T00:00:00"
+    },
+    {
+      "volume_str": "9072169293",
+      "orderCount": 2027,
+      "lowPrice": 5.75,
+      "highPrice": 5.98,
+      "avgPrice": 5.9,
+      "volume": 9072169293,
+      "orderCount_str": "2027",
+      "date": "2016-06-14T00:00:00"
+    },
+    {
+      "volume_str": "8472071411",
+      "orderCount": 1856,
+      "lowPrice": 5.72,
+      "highPrice": 6.0,
+      "avgPrice": 5.98,
+      "volume": 8472071411,
+      "orderCount_str": "1856",
+      "date": "2016-06-15T00:00:00"
+    },
+    {
+      "volume_str": "8912872005",
+      "orderCount": 1950,
+      "lowPrice": 5.78,
+      "highPrice": 6.0,
+      "avgPrice": 5.98,
+      "volume": 8912872005,
+      "orderCount_str": "1950",
+      "date": "2016-06-16T00:00:00"
+    },
+    {
+      "volume_str": "12749688303",
+      "orderCount": 1937,
+      "lowPrice": 5.78,
+      "highPrice": 5.78,
+      "avgPrice": 5.78,
+      "volume": 12749688303,
+      "orderCount_str": "1937",
+      "date": "2016-06-17T00:00:00"
+    },
+    {
+      "volume_str": "14778897616",
+      "orderCount": 2267,
+      "lowPrice": 5.7,
+      "highPrice": 5.89,
+      "avgPrice": 5.78,
+      "volume": 14778897616,
+      "orderCount_str": "2267",
+      "date": "2016-06-18T00:00:00"
+    },
+    {
+      "volume_str": "20207563265",
+      "orderCount": 2489,
+      "lowPrice": 5.76,
+      "highPrice": 5.86,
+      "avgPrice": 5.84,
+      "volume": 20207563265,
+      "orderCount_str": "2489",
+      "date": "2016-06-19T00:00:00"
+    },
+    {
+      "volume_str": "14533860483",
+      "orderCount": 1916,
+      "lowPrice": 5.69,
+      "highPrice": 5.83,
+      "avgPrice": 5.8,
+      "volume": 14533860483,
+      "orderCount_str": "1916",
+      "date": "2016-06-20T00:00:00"
+    },
+    {
+      "volume_str": "11659572936",
+      "orderCount": 1719,
+      "lowPrice": 5.78,
+      "highPrice": 6.0,
+      "avgPrice": 5.87,
+      "volume": 11659572936,
+      "orderCount_str": "1719",
+      "date": "2016-06-21T00:00:00"
+    },
+    {
+      "volume_str": "10681009418",
+      "orderCount": 1761,
+      "lowPrice": 5.78,
+      "highPrice": 5.85,
+      "avgPrice": 5.83,
+      "volume": 10681009418,
+      "orderCount_str": "1761",
+      "date": "2016-06-22T00:00:00"
+    },
+    {
+      "volume_str": "9862828278",
+      "orderCount": 1728,
+      "lowPrice": 5.65,
+      "highPrice": 5.86,
+      "avgPrice": 5.82,
+      "volume": 9862828278,
+      "orderCount_str": "1728",
+      "date": "2016-06-23T00:00:00"
+    },
+    {
+      "volume_str": "9105415207",
+      "orderCount": 1750,
+      "lowPrice": 5.82,
+      "highPrice": 6.0,
+      "avgPrice": 5.87,
+      "volume": 9105415207,
+      "orderCount_str": "1750",
+      "date": "2016-06-24T00:00:00"
+    },
+    {
+      "volume_str": "13410889325",
+      "orderCount": 2075,
+      "lowPrice": 5.89,
+      "highPrice": 6.03,
+      "avgPrice": 5.97,
+      "volume": 13410889325,
+      "orderCount_str": "2075",
+      "date": "2016-06-25T00:00:00"
+    },
+    {
+      "volume_str": "16757455823",
+      "orderCount": 2240,
+      "lowPrice": 5.52,
+      "highPrice": 5.93,
+      "avgPrice": 5.85,
+      "volume": 16757455823,
+      "orderCount_str": "2240",
+      "date": "2016-06-26T00:00:00"
+    },
+    {
+      "volume_str": "14117974679",
+      "orderCount": 1875,
+      "lowPrice": 5.64,
+      "highPrice": 5.85,
+      "avgPrice": 5.71,
+      "volume": 14117974679,
+      "orderCount_str": "1875",
+      "date": "2016-06-27T00:00:00"
+    },
+    {
+      "volume_str": "13880599082",
+      "orderCount": 1784,
+      "lowPrice": 5.7,
+      "highPrice": 5.72,
+      "avgPrice": 5.71,
+      "volume": 13880599082,
+      "orderCount_str": "1784",
+      "date": "2016-06-28T00:00:00"
+    },
+    {
+      "volume_str": "14612625150",
+      "orderCount": 1782,
+      "lowPrice": 5.44,
+      "highPrice": 5.63,
+      "avgPrice": 5.57,
+      "volume": 14612625150,
+      "orderCount_str": "1782",
+      "date": "2016-06-29T00:00:00"
+    },
+    {
+      "volume_str": "12786692905",
+      "orderCount": 1850,
+      "lowPrice": 5.55,
+      "highPrice": 5.63,
+      "avgPrice": 5.62,
+      "volume": 12786692905,
+      "orderCount_str": "1850",
+      "date": "2016-06-30T00:00:00"
+    },
+    {
+      "volume_str": "32787214665",
+      "orderCount": 1961,
+      "lowPrice": 5.47,
+      "highPrice": 5.96,
+      "avgPrice": 5.61,
+      "volume": 32787214665,
+      "orderCount_str": "1961",
+      "date": "2016-07-01T00:00:00"
+    },
+    {
+      "volume_str": "25290210510",
+      "orderCount": 2142,
+      "lowPrice": 5.43,
+      "highPrice": 5.97,
+      "avgPrice": 5.93,
+      "volume": 25290210510,
+      "orderCount_str": "2142",
+      "date": "2016-07-02T00:00:00"
+    },
+    {
+      "volume_str": "34264774281",
+      "orderCount": 2205,
+      "lowPrice": 2.88,
+      "highPrice": 5.72,
+      "avgPrice": 5.4,
+      "volume": 34264774281,
+      "orderCount_str": "2205",
+      "date": "2016-07-03T00:00:00"
+    },
+    {
+      "volume_str": "18057936332",
+      "orderCount": 2046,
+      "lowPrice": 5.24,
+      "highPrice": 5.52,
+      "avgPrice": 5.47,
+      "volume": 18057936332,
+      "orderCount_str": "2046",
+      "date": "2016-07-04T00:00:00"
+    },
+    {
+      "volume_str": "16333650220",
+      "orderCount": 1939,
+      "lowPrice": 5.48,
+      "highPrice": 5.96,
+      "avgPrice": 5.6,
+      "volume": 16333650220,
+      "orderCount_str": "1939",
+      "date": "2016-07-05T00:00:00"
+    },
+    {
+      "volume_str": "17721887249",
+      "orderCount": 1863,
+      "lowPrice": 5.1,
+      "highPrice": 5.87,
+      "avgPrice": 5.66,
+      "volume": 17721887249,
+      "orderCount_str": "1863",
+      "date": "2016-07-06T00:00:00"
+    },
+    {
+      "volume_str": "9332632084",
+      "orderCount": 1854,
+      "lowPrice": 5.63,
+      "highPrice": 5.89,
+      "avgPrice": 5.79,
+      "volume": 9332632084,
+      "orderCount_str": "1854",
+      "date": "2016-07-07T00:00:00"
+    },
+    {
+      "volume_str": "7800080170",
+      "orderCount": 1825,
+      "lowPrice": 5.72,
+      "highPrice": 5.78,
+      "avgPrice": 5.75,
+      "volume": 7800080170,
+      "orderCount_str": "1825",
+      "date": "2016-07-08T00:00:00"
+    },
+    {
+      "volume_str": "9645694537",
+      "orderCount": 2071,
+      "lowPrice": 5.71,
+      "highPrice": 5.95,
+      "avgPrice": 5.85,
+      "volume": 9645694537,
+      "orderCount_str": "2071",
+      "date": "2016-07-09T00:00:00"
+    },
+    {
+      "volume_str": "10856310872",
+      "orderCount": 2168,
+      "lowPrice": 5.72,
+      "highPrice": 5.88,
+      "avgPrice": 5.86,
+      "volume": 10856310872,
+      "orderCount_str": "2168",
+      "date": "2016-07-10T00:00:00"
+    },
+    {
+      "volume_str": "8122484814",
+      "orderCount": 1772,
+      "lowPrice": 5.81,
+      "highPrice": 5.9,
+      "avgPrice": 5.88,
+      "volume": 8122484814,
+      "orderCount_str": "1772",
+      "date": "2016-07-11T00:00:00"
+    },
+    {
+      "volume_str": "10708334178",
+      "orderCount": 1920,
+      "lowPrice": 5.78,
+      "highPrice": 5.93,
+      "avgPrice": 5.87,
+      "volume": 10708334178,
+      "orderCount_str": "1920",
+      "date": "2016-07-12T00:00:00"
+    },
+    {
+      "volume_str": "11396741339",
+      "orderCount": 1798,
+      "lowPrice": 5.83,
+      "highPrice": 5.94,
+      "avgPrice": 5.9,
+      "volume": 11396741339,
+      "orderCount_str": "1798",
+      "date": "2016-07-13T00:00:00"
+    },
+    {
+      "volume_str": "9701208511",
+      "orderCount": 1793,
+      "lowPrice": 5.78,
+      "highPrice": 5.89,
+      "avgPrice": 5.84,
+      "volume": 9701208511,
+      "orderCount_str": "1793",
+      "date": "2016-07-14T00:00:00"
+    },
+    {
+      "volume_str": "25617021110",
+      "orderCount": 1810,
+      "lowPrice": 5.78,
+      "highPrice": 5.94,
+      "avgPrice": 5.86,
+      "volume": 25617021110,
+      "orderCount_str": "1810",
+      "date": "2016-07-15T00:00:00"
+    },
+    {
+      "volume_str": "11181023647",
+      "orderCount": 1971,
+      "lowPrice": 5.78,
+      "highPrice": 5.87,
+      "avgPrice": 5.82,
+      "volume": 11181023647,
+      "orderCount_str": "1971",
+      "date": "2016-07-16T00:00:00"
+    },
+    {
+      "volume_str": "14648119628",
+      "orderCount": 2003,
+      "lowPrice": 2.95,
+      "highPrice": 5.77,
+      "avgPrice": 5.71,
+      "volume": 14648119628,
+      "orderCount_str": "2003",
+      "date": "2016-07-17T00:00:00"
+    },
+    {
+      "volume_str": "11031162793",
+      "orderCount": 1689,
+      "lowPrice": 5.7,
+      "highPrice": 5.75,
+      "avgPrice": 5.73,
+      "volume": 11031162793,
+      "orderCount_str": "1689",
+      "date": "2016-07-18T00:00:00"
+    },
+    {
+      "volume_str": "18425498771",
+      "orderCount": 1610,
+      "lowPrice": 2.92,
+      "highPrice": 5.81,
+      "avgPrice": 5.7,
+      "volume": 18425498771,
+      "orderCount_str": "1610",
+      "date": "2016-07-19T00:00:00"
+    },
+    {
+      "volume_str": "8358337749",
+      "orderCount": 1696,
+      "lowPrice": 5.72,
+      "highPrice": 5.77,
+      "avgPrice": 5.75,
+      "volume": 8358337749,
+      "orderCount_str": "1696",
+      "date": "2016-07-20T00:00:00"
+    },
+    {
+      "volume_str": "9569925079",
+      "orderCount": 1745,
+      "lowPrice": 5.68,
+      "highPrice": 5.9,
+      "avgPrice": 5.74,
+      "volume": 9569925079,
+      "orderCount_str": "1745",
+      "date": "2016-07-21T00:00:00"
+    },
+    {
+      "volume_str": "10551213893",
+      "orderCount": 1865,
+      "lowPrice": 5.69,
+      "highPrice": 5.88,
+      "avgPrice": 5.72,
+      "volume": 10551213893,
+      "orderCount_str": "1865",
+      "date": "2016-07-22T00:00:00"
+    },
+    {
+      "volume_str": "13413918480",
+      "orderCount": 2003,
+      "lowPrice": 5.74,
+      "highPrice": 5.92,
+      "avgPrice": 5.87,
+      "volume": 13413918480,
+      "orderCount_str": "2003",
+      "date": "2016-07-23T00:00:00"
+    },
+    {
+      "volume_str": "16525526236",
+      "orderCount": 2274,
+      "lowPrice": 5.78,
+      "highPrice": 5.91,
+      "avgPrice": 5.84,
+      "volume": 16525526236,
+      "orderCount_str": "2274",
+      "date": "2016-07-24T00:00:00"
+    },
+    {
+      "volume_str": "14048945624",
+      "orderCount": 1754,
+      "lowPrice": 5.83,
+      "highPrice": 5.85,
+      "avgPrice": 5.84,
+      "volume": 14048945624,
+      "orderCount_str": "1754",
+      "date": "2016-07-25T00:00:00"
+    },
+    {
+      "volume_str": "18012042157",
+      "orderCount": 1926,
+      "lowPrice": 5.84,
+      "highPrice": 5.85,
+      "avgPrice": 5.84,
+      "volume": 18012042157,
+      "orderCount_str": "1926",
+      "date": "2016-07-26T00:00:00"
+    },
+    {
+      "volume_str": "9801370573",
+      "orderCount": 1695,
+      "lowPrice": 5.78,
+      "highPrice": 5.89,
+      "avgPrice": 5.84,
+      "volume": 9801370573,
+      "orderCount_str": "1695",
+      "date": "2016-07-27T00:00:00"
+    },
+    {
+      "volume_str": "11344400927",
+      "orderCount": 1812,
+      "lowPrice": 5.56,
+      "highPrice": 5.77,
+      "avgPrice": 5.61,
+      "volume": 11344400927,
+      "orderCount_str": "1812",
+      "date": "2016-07-28T00:00:00"
+    },
+    {
+      "volume_str": "11144845512",
+      "orderCount": 1786,
+      "lowPrice": 5.25,
+      "highPrice": 5.7,
+      "avgPrice": 5.6,
+      "volume": 11144845512,
+      "orderCount_str": "1786",
+      "date": "2016-07-29T00:00:00"
+    },
+    {
+      "volume_str": "15020249702",
+      "orderCount": 1919,
+      "lowPrice": 5.39,
+      "highPrice": 5.79,
+      "avgPrice": 5.67,
+      "volume": 15020249702,
+      "orderCount_str": "1919",
+      "date": "2016-07-30T00:00:00"
+    },
+    {
+      "volume_str": "17261488566",
+      "orderCount": 2022,
+      "lowPrice": 5.27,
+      "highPrice": 5.74,
+      "avgPrice": 5.48,
+      "volume": 17261488566,
+      "orderCount_str": "2022",
+      "date": "2016-07-31T00:00:00"
+    },
+    {
+      "volume_str": "18212110550",
+      "orderCount": 1775,
+      "lowPrice": 5.52,
+      "highPrice": 5.71,
+      "avgPrice": 5.65,
+      "volume": 18212110550,
+      "orderCount_str": "1775",
+      "date": "2016-08-01T00:00:00"
+    },
+    {
+      "volume_str": "13247999683",
+      "orderCount": 1859,
+      "lowPrice": 2.86,
+      "highPrice": 5.66,
+      "avgPrice": 5.6,
+      "volume": 13247999683,
+      "orderCount_str": "1859",
+      "date": "2016-08-02T00:00:00"
+    },
+    {
+      "volume_str": "22498236672",
+      "orderCount": 1857,
+      "lowPrice": 5.57,
+      "highPrice": 5.75,
+      "avgPrice": 5.65,
+      "volume": 22498236672,
+      "orderCount_str": "1857",
+      "date": "2016-08-03T00:00:00"
+    },
+    {
+      "volume_str": "12265452779",
+      "orderCount": 1649,
+      "lowPrice": 5.57,
+      "highPrice": 5.71,
+      "avgPrice": 5.65,
+      "volume": 12265452779,
+      "orderCount_str": "1649",
+      "date": "2016-08-04T00:00:00"
+    },
+    {
+      "volume_str": "15171385095",
+      "orderCount": 1712,
+      "lowPrice": 2.85,
+      "highPrice": 5.68,
+      "avgPrice": 5.6,
+      "volume": 15171385095,
+      "orderCount_str": "1712",
+      "date": "2016-08-05T00:00:00"
+    },
+    {
+      "volume_str": "13262571679",
+      "orderCount": 1925,
+      "lowPrice": 5.57,
+      "highPrice": 5.61,
+      "avgPrice": 5.6,
+      "volume": 13262571679,
+      "orderCount_str": "1925",
+      "date": "2016-08-06T00:00:00"
+    },
+    {
+      "volume_str": "17626320818",
+      "orderCount": 2032,
+      "lowPrice": 5.61,
+      "highPrice": 5.82,
+      "avgPrice": 5.73,
+      "volume": 17626320818,
+      "orderCount_str": "2032",
+      "date": "2016-08-07T00:00:00"
+    },
+    {
+      "volume_str": "16156850451",
+      "orderCount": 1774,
+      "lowPrice": 5.56,
+      "highPrice": 5.63,
+      "avgPrice": 5.59,
+      "volume": 16156850451,
+      "orderCount_str": "1774",
+      "date": "2016-08-08T00:00:00"
+    },
+    {
+      "volume_str": "13094403317",
+      "orderCount": 1658,
+      "lowPrice": 5.6,
+      "highPrice": 5.73,
+      "avgPrice": 5.65,
+      "volume": 13094403317,
+      "orderCount_str": "1658",
+      "date": "2016-08-09T00:00:00"
+    },
+    {
+      "volume_str": "26565038714",
+      "orderCount": 1856,
+      "lowPrice": 5.7,
+      "highPrice": 5.85,
+      "avgPrice": 5.8,
+      "volume": 26565038714,
+      "orderCount_str": "1856",
+      "date": "2016-08-10T00:00:00"
+    },
+    {
+      "volume_str": "18045669678",
+      "orderCount": 1750,
+      "lowPrice": 5.72,
+      "highPrice": 5.73,
+      "avgPrice": 5.72,
+      "volume": 18045669678,
+      "orderCount_str": "1750",
+      "date": "2016-08-11T00:00:00"
+    },
+    {
+      "volume_str": "14660914333",
+      "orderCount": 1648,
+      "lowPrice": 5.72,
+      "highPrice": 5.83,
+      "avgPrice": 5.73,
+      "volume": 14660914333,
+      "orderCount_str": "1648",
+      "date": "2016-08-12T00:00:00"
+    },
+    {
+      "volume_str": "14235472857",
+      "orderCount": 1623,
+      "lowPrice": 5.39,
+      "highPrice": 5.71,
+      "avgPrice": 5.62,
+      "volume": 14235472857,
+      "orderCount_str": "1623",
+      "date": "2016-08-13T00:00:00"
+    },
+    {
+      "volume_str": "9609583871",
+      "orderCount": 2001,
+      "lowPrice": 5.68,
+      "highPrice": 5.86,
+      "avgPrice": 5.78,
+      "volume": 9609583871,
+      "orderCount_str": "2001",
+      "date": "2016-08-14T00:00:00"
+    },
+    {
+      "volume_str": "7164062397",
+      "orderCount": 1665,
+      "lowPrice": 5.75,
+      "highPrice": 5.8,
+      "avgPrice": 5.79,
+      "volume": 7164062397,
+      "orderCount_str": "1665",
+      "date": "2016-08-15T00:00:00"
+    },
+    {
+      "volume_str": "12936326028",
+      "orderCount": 1771,
+      "lowPrice": 5.62,
+      "highPrice": 5.79,
+      "avgPrice": 5.65,
+      "volume": 12936326028,
+      "orderCount_str": "1771",
+      "date": "2016-08-16T00:00:00"
+    },
+    {
+      "volume_str": "13532198051",
+      "orderCount": 1851,
+      "lowPrice": 5.61,
+      "highPrice": 5.89,
+      "avgPrice": 5.85,
+      "volume": 13532198051,
+      "orderCount_str": "1851",
+      "date": "2016-08-17T00:00:00"
+    },
+    {
+      "volume_str": "8123531777",
+      "orderCount": 1826,
+      "lowPrice": 5.64,
+      "highPrice": 5.9,
+      "avgPrice": 5.84,
+      "volume": 8123531777,
+      "orderCount_str": "1826",
+      "date": "2016-08-18T00:00:00"
+    },
+    {
+      "volume_str": "7612437143",
+      "orderCount": 1906,
+      "lowPrice": 5.79,
+      "highPrice": 6.02,
+      "avgPrice": 5.98,
+      "volume": 7612437143,
+      "orderCount_str": "1906",
+      "date": "2016-08-19T00:00:00"
+    },
+    {
+      "volume_str": "8441666008",
+      "orderCount": 2248,
+      "lowPrice": 5.77,
+      "highPrice": 5.97,
+      "avgPrice": 5.92,
+      "volume": 8441666008,
+      "orderCount_str": "2248",
+      "date": "2016-08-20T00:00:00"
+    },
+    {
+      "volume_str": "10453045658",
+      "orderCount": 2417,
+      "lowPrice": 5.8,
+      "highPrice": 5.99,
+      "avgPrice": 5.96,
+      "volume": 10453045658,
+      "orderCount_str": "2417",
+      "date": "2016-08-21T00:00:00"
+    },
+    {
+      "volume_str": "11045916288",
+      "orderCount": 1937,
+      "lowPrice": 5.88,
+      "highPrice": 6.1,
+      "avgPrice": 5.99,
+      "volume": 11045916288,
+      "orderCount_str": "1937",
+      "date": "2016-08-22T00:00:00"
+    },
+    {
+      "volume_str": "10435948947",
+      "orderCount": 1952,
+      "lowPrice": 5.86,
+      "highPrice": 6.19,
+      "avgPrice": 6.12,
+      "volume": 10435948947,
+      "orderCount_str": "1952",
+      "date": "2016-08-23T00:00:00"
+    },
+    {
+      "volume_str": "12659042461",
+      "orderCount": 1855,
+      "lowPrice": 5.88,
+      "highPrice": 6.17,
+      "avgPrice": 6.14,
+      "volume": 12659042461,
+      "orderCount_str": "1855",
+      "date": "2016-08-24T00:00:00"
+    }
+  ],
+  "pageCount": 1,
+  "pageCount_str": "1",
+  "totalCount": 420
+}

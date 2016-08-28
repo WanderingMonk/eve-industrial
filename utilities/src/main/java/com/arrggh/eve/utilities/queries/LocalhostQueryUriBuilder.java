@@ -1,4 +1,4 @@
-package com.arrggh.eve.api.xml.queries;
+package com.arrggh.eve.utilities.queries;
 
 public class LocalhostQueryUriBuilder extends QueryUriBuilder {
 

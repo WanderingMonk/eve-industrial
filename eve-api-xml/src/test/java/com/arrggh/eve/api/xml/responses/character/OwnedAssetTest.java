@@ -1,8 +1,8 @@
 package com.arrggh.eve.api.xml.responses.character;
 
-import com.arrggh.eve.api.xml.responses.BasicModelObjectValidation;
+import com.arrggh.eve.api.xml.responses.BasicResponseObjectValidation;
 
-public class OwnedAssetTest extends BasicModelObjectValidation<OwnedAsset> {
+public class OwnedAssetTest extends BasicResponseObjectValidation<OwnedAsset> {
 
     @Override
     protected Class<OwnedAsset> getClassUnderTest() {

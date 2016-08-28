@@ -16,11 +16,11 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.function.Function;
 
-public class CachedResponseStillValidChecker implements Function<String, Boolean> {
-    private static final Logger LOG = LoggerFactory.getLogger(CachedResponseStillValidChecker.class);
+public class XmlExpiryTimeCalculator implements Function<String, Instant> {
+    private static final Logger LOG = LoggerFactory.getLogger(XmlExpiryTimeCalculator.class);
 
     @Override
-    public Boolean apply(String text) {
+    public Instant apply(String text) {
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
@@ -28,18 +28,10 @@ public class CachedResponseStillValidChecker implements Function<String, Boolean
 
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             LocalDateTime cachedTime = LocalDateTime.parse(cachedUntil.getTextNormalize(), formatter);
-            Instant cachedTimeInstant = cachedTime.toInstant(ZoneOffset.UTC);
-            Instant nowInstant = Clock.systemUTC().instant();
-
-            if (nowInstant.compareTo(cachedTimeInstant) < 0) {
-                LOG.info("Use cached file, cached time '{}' is ahead of '{}'", cachedTimeInstant, nowInstant);
-                return true;
-            }
-            LOG.info("Cached file expired, cached time '{}' is behind '{}'", cachedTimeInstant, nowInstant);
-            return false;
+            return cachedTime.toInstant(ZoneOffset.UTC);
         } catch (JDOMException | IOException e) {
             LOG.error("Problem parsing XML file", e);
         }
-        return true;
+        return Instant.now();
     }
 }

@@ -5,6 +5,7 @@ import com.arrggh.eve.api.xml.responses.character.CharacterIndustryJob;
 import com.arrggh.eve.api.xml.responses.character.EveLocation;
 import com.arrggh.eve.api.xml.responses.character.OwnedAsset;
 import com.arrggh.eve.api.xml.responses.character.OwnedBlueprint;
+import com.arrggh.eve.utilities.exceptions.ParserException;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.JDOMException;

@@ -1,8 +1,8 @@
 package com.arrggh.eve.api.xml.responses.character;
 
-import com.arrggh.eve.api.xml.responses.BasicModelObjectValidation;
+import com.arrggh.eve.api.xml.responses.BasicResponseObjectValidation;
 
-public class CharacterIndustryJobTest extends BasicModelObjectValidation<CharacterIndustryJob> {
+public class CharacterIndustryJobTest extends BasicResponseObjectValidation<CharacterIndustryJob> {
 
     @Override
     protected Class<CharacterIndustryJob> getClassUnderTest() {

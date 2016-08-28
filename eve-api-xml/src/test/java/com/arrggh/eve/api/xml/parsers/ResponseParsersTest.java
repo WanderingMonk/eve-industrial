@@ -1,5 +1,6 @@
 package com.arrggh.eve.api.xml.parsers;
 
+import com.arrggh.eve.utilities.exceptions.ParserException;
 import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
 import org.junit.Test;

@@ -11,10 +11,8 @@ public class QueryUriBuilderTest {
         SingularityQueryUriBuilder sUrlBuilder = new SingularityQueryUriBuilder();
         TranquilityQueryUriBuilder tUrlBuilder = new TranquilityQueryUriBuilder();
 
-        XmlApiKey key = XmlApiKey.builder().name("name").keyId("key").verificationCode("code").build();
-
-        String sUrl = sUrlBuilder.buildUrl("/path", key).toASCIIString();
-        String tUrl = tUrlBuilder.buildUrl("/path", key).toASCIIString();
+        String sUrl = sUrlBuilder.buildUrl("/path", "keyID", "key", "vCode", "code").toASCIIString();
+        String tUrl = tUrlBuilder.buildUrl("/path", "keyID", "key", "vCode", "code").toASCIIString();
 
         assertEquals("https://api.testeveonline.com:443/path?keyID=key&vCode=code", sUrl);
         assertEquals("https://api.eveonline.com:443/path?keyID=key&vCode=code", tUrl);
@@ -25,10 +23,8 @@ public class QueryUriBuilderTest {
         SingularityQueryUriBuilder sUrlBuilder = new SingularityQueryUriBuilder();
         TranquilityQueryUriBuilder tUrlBuilder = new TranquilityQueryUriBuilder();
 
-        XmlApiKey key = XmlApiKey.builder().name("name").keyId("key").verificationCode("code").build();
-
-        String sUrl = sUrlBuilder.buildUrl("/path", key, "a", "b").toASCIIString();
-        String tUrl = tUrlBuilder.buildUrl("/path", key, "a", "b").toASCIIString();
+        String sUrl = sUrlBuilder.buildUrl("/path", "keyID", "key", "vCode", "code", "a", "b").toASCIIString();
+        String tUrl = tUrlBuilder.buildUrl("/path", "keyID", "key", "vCode", "code", "a", "b").toASCIIString();
 
         assertEquals("https://api.testeveonline.com:443/path?keyID=key&vCode=code&a=b", sUrl);
         assertEquals("https://api.eveonline.com:443/path?keyID=key&vCode=code&a=b", tUrl);
@@ -38,13 +34,13 @@ public class QueryUriBuilderTest {
     public void testSingularityUrlBuilderWithMismatchedParameters() {
         SingularityQueryUriBuilder sUrlBuilder = new SingularityQueryUriBuilder();
         XmlApiKey key = XmlApiKey.builder().name("name").keyId("key").verificationCode("code").build();
-        sUrlBuilder.buildUrl("path", key, "a").toASCIIString();
+        sUrlBuilder.buildUrl("path", "keyID", "key", "vCode", "code", "a").toASCIIString();
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testTranquilityUrlBuilderWithMismatchedParameters() {
         TranquilityQueryUriBuilder tUrlBuilder = new TranquilityQueryUriBuilder();
         XmlApiKey key = XmlApiKey.builder().name("name").keyId("key").verificationCode("code").build();
-        tUrlBuilder.buildUrl("path", key, "a").toASCIIString();
+        tUrlBuilder.buildUrl("path", "keyID", "key", "vCode", "code", "a").toASCIIString();
     }
 }
