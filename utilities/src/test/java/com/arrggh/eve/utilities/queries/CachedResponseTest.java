@@ -1,6 +1,7 @@
 package com.arrggh.eve.utilities.queries;
 
 import com.arrggh.eve.utilities.queries.CachedResponse;
+import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;
 
 import java.time.Instant;
@@ -20,5 +21,10 @@ public class CachedResponseTest {
 
         assertTrue(lastWeekResponse.hasExpired());
         assertTrue(nextWeekResponse.hasExpired());
+    }
+
+    @Test
+    public void testHashcodeAndEquals() {
+        EqualsVerifier.forClass(CachedResponse.class).verify();
     }
 }

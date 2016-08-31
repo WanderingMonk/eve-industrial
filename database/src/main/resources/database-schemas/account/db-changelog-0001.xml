@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.7
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.7.xsd">
+
+    <changeSet id="1" author="Wandering Monk">
+
+        <createSequence incrementBy="1" sequenceName="account_id_sequence"/>
+
+        <createTable tablespace="accounts" tableName="accounts">
+            <column name="id" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+
+        <createTable tablespace="accounts" tableName="characters">
+            <column name="id" type="VARCHAR(255)"/>
+            <column name="account_id" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+
+        <createTable tablespace="accounts" tableName="xml_api_keys">
+            <column name="account_id" type="VARCHAR(255)"/>
+            <column name="key_id" type="VARCHAR(255)"/>
+            <column name="v_code" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

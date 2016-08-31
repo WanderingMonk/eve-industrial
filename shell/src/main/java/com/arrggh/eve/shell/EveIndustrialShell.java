@@ -1,5 +1,12 @@
 package com.arrggh.eve.shell;
 
+import com.arrggh.eve.api.xml.EveXmlApi;
+import com.arrggh.eve.api.xml.queries.TranquilityQueryUriBuilder;
+import com.arrggh.eve.database.DatabaseConnection;
+import com.arrggh.eve.database.DatabaseResponseCache;
+import com.arrggh.eve.database.DatabaseSchemaUpdator;
+import com.arrggh.eve.database.dao.cache.ICacheDao;
+import com.arrggh.eve.utilities.queries.CachedExternalQueryService;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
@@ -15,14 +22,17 @@ import org.springframework.shell.core.ExitShellRequest;
 import org.springframework.shell.core.JLineShellComponent;
 import org.springframework.util.StopWatch;
 
+import java.io.File;
 import java.io.IOException;
+import java.sql.SQLException;
 
 public class EveIndustrialShell {
     private final StopWatch sw = new StopWatch("Spring Shell");
     private final CommandLine commandLine;
     private final GenericApplicationContext ctx;
+    private final ShellContext shellContext;
 
-    private EveIndustrialShell(String[] args, String[] contextPath) {
+    private EveIndustrialShell(String[] args, String[] contextPath) throws SQLException {
         sw.start();
         try {
             commandLine = SimpleShellCommandLineOptions.parseCommandLine(args);
@@ -31,22 +41,46 @@ public class EveIndustrialShell {
         }
 
         ctx = new GenericApplicationContext();
+
+        File dbDirectory = new File("/home/monk/eve-industrial/database/eve-industrial-db");
+        dbDirectory.mkdirs();
+
+        DatabaseConnection dbConnection = new DatabaseConnection(dbDirectory);
+        dbConnection.executeQuery(new DatabaseSchemaUpdator());
+
+        ICacheDao cacheDao = dbConnection.getDao(ICacheDao.class);
+        DatabaseResponseCache responseCache = new DatabaseResponseCache(cacheDao);
+        CachedExternalQueryService queryCache = new CachedExternalQueryService(responseCache);
+
+        EveXmlApi xmlApi = new EveXmlApi(queryCache, new TranquilityQueryUriBuilder());
+
+        DataManager manager = new DataManager(dbConnection, xmlApi);
+
+        ShellContext.ShellContextBuilder contextBuilder = ShellContext.builder();
+        contextBuilder.dataManager(manager);
+        this.shellContext = contextBuilder.build();
+
+        ctx.addBeanFactoryPostProcessor(beanFactory -> beanFactory.registerResolvableDependency(ShellContext.class, shellContext));
+
         ctx.registerShutdownHook();
         configureApplicationContext(ctx);
 
         ClassPathBeanDefinitionScanner scanner = new ClassPathBeanDefinitionScanner(ctx);
-        scanner.addExcludeFilter(new TypeFilter() {
+        TypeFilter excludeFilter = new TypeFilter() {
             @Override
             public boolean match(MetadataReader metadataReader, MetadataReaderFactory metadataReaderFactory) throws IOException {
                 return metadataReader.getClassMetadata().getClassName().endsWith("DateCommands") || //
                         metadataReader.getClassMetadata().getClassName().endsWith("SystemCommands") || //
-                        metadataReader.getClassMetadata().getClassName().endsWith("ScriptCommands") || //
-                        metadataReader.getClassMetadata().getClassName().endsWith("InlineCommentCommands") || //
+//                        metadataReader.getClassMetadata().getClassName().endsWith("ScriptCommands") || //
+//                        metadataReader.getClassMetadata().getClassName().endsWith("InlineCommentCommands") || //
                         metadataReader.getClassMetadata().getClassName().endsWith("OsCommands") || //
                         metadataReader.getClassMetadata().getClassName().endsWith("SystemPropertyCommands");
             }
-        });
-        scanner.scan("org.springframework.shell.commands", "org.springframework.shell.converters",
+        };
+        scanner.addExcludeFilter(excludeFilter);
+
+        scanner.scan("org.springframework.shell.commands", //
+                "org.springframework.shell.converters", //
                 "org.springframework.shell.plugin.support");
 
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(ctx);
@@ -84,12 +118,14 @@ public class EveIndustrialShell {
         }
         shell.waitForComplete();
 
+        shellContext.shutdown();
+
         ctx.close();
         sw.stop();
         return exitShellRequest;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, SQLException {
         EveIndustrialShell shell = new EveIndustrialShell(args, new String[]{"/com/arrggh/eve/shell/spring-shell-plugin.xml"});
         shell.run();
     }

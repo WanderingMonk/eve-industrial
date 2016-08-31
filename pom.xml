@@ -10,7 +10,7 @@
 
     <version>0.1-SNAPSHOT</version>
 
-    <name>EVE Online: Industrial Management Software</name>
+    <name>EVE Industrial: Industrial Management Software</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +39,6 @@
     <modules>
         <module>eve-api-xml</module>
         <module>eve-api-sde</module>
-        <module>eve-api-yaml</module>
         <module>eve-api-crest</module>
         <module>database</module>
         <module>model</module>
@@ -108,6 +107,11 @@
                         </gitDescribe>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-shade-plugin</artifactId>
+                    <version>2.4.3</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -123,11 +127,6 @@
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>eve-api-sde</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>eve-api-yaml</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -165,6 +164,16 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>log4j-over-slf4j</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jul-to-slf4j</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
             <dependency>

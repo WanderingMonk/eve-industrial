@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class VerifyDatabaseSchemaTest {
     @Test
     public void testDatabaseSchemaCanBeLoaded() throws SQLException, LiquibaseException {
-        EveDatabase database = new EveDatabase();
-        database.execute(new DatabaseSchemaUpdator());
+        DatabaseConnection database = new DatabaseConnection();
+        database.executeQuery(new DatabaseSchemaUpdator());
     }
 }

@@ -12,7 +12,7 @@
 
     <packaging>jar</packaging>
 
-    <name>Generic Utilities &amp; Helper classes</name>
+    <name>EVE Industrial: Generic Utilities</name>
 
     <dependencies>
         <!-- External Dependencies -->
@@ -49,6 +49,10 @@
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>nl.jqno.equalsverifier</groupId>
+            <artifactId>equalsverifier</artifactId>
         </dependency>
     </dependencies>
 </project>

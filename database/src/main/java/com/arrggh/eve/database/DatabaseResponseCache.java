@@ -1,5 +1,6 @@
 package com.arrggh.eve.database;
 
+import com.arrggh.eve.database.dao.cache.ICacheDao;
 import com.arrggh.eve.utilities.cache.ICache;
 import com.arrggh.eve.utilities.queries.CachedResponse;
 

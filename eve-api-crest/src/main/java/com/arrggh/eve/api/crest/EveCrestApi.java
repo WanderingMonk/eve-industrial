@@ -3,7 +3,7 @@ package com.arrggh.eve.api.crest;
 import com.arrggh.eve.api.crest.parsers.CrestExpiryTimeCalculator;
 import com.arrggh.eve.api.crest.parsers.ResponseParsers;
 import com.arrggh.eve.api.crest.queries.QueryUriBuilder;
-import com.arrggh.eve.api.crest.responses.eve.MarketHistory;
+import com.arrggh.eve.api.crest.responses.eve.CrestApiMarketHistory;
 import com.arrggh.eve.utilities.queries.CachedExternalQueryService;
 
 import java.net.URI;
@@ -20,7 +20,7 @@ public class EveCrestApi {
         this.responseCache = responseCache;
     }
 
-    public MarketHistory getMarketHistory(long regionId, long typeId) {
+    public CrestApiMarketHistory getMarketHistory(long regionId, long typeId) {
         // "/market/10000002/history/?type=https://crest-tq.eveonline.com/inventory/types/34/"
         String path = "/market/" + regionId + "/history/?type=https://crest-tq.eveonline.com/inventory/types/" + typeId + "/";
         URI uri = queryUriBuilder.buildUrl(path);

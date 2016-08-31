@@ -2,7 +2,7 @@ package com.arrggh.eve.api.xml.queries;
 
 import com.arrggh.eve.api.xml.parsers.ResponseParsers;
 import com.arrggh.eve.api.xml.parsers.XmlExpiryTimeCalculator;
-import com.arrggh.eve.api.xml.responses.character.EveLocation;
+import com.arrggh.eve.api.xml.responses.character.XmlApiEveLocation;
 import com.arrggh.eve.utilities.cache.MemoryCache;
 import com.arrggh.eve.utilities.queries.CachedExternalQueryService;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
@@ -13,6 +13,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.net.URI;
 import java.util.List;
+import java.util.Optional;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
@@ -38,13 +39,13 @@ public class CachedExternalQueryServiceTest {
 
         URI url = URI.create("http://localhost:" + wireMockRule.port() + "/test");
         CachedExternalQueryService queryService = new CachedExternalQueryService(new MemoryCache());
-        List<EveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(2, locations.size());
 
         // If the api gets called again we will die with see that we have 3 locations and not the 2 in the cached file
         wireMockRule.stubFor(get(urlEqualTo("/test")).willReturn(aResponse().withBody(oldBody).withStatus(200)));
 
-        List<EveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(2, shouldBeCached.size());
     }
 
@@ -54,13 +55,13 @@ public class CachedExternalQueryServiceTest {
 
         URI url = URI.create("http://localhost:" + wireMockRule.port() + "/test");
         CachedExternalQueryService queryService = new CachedExternalQueryService(new MemoryCache());
-        List<EveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(3, locations.size());
 
         // If we don't get the new file then we will still have 3 locations
         wireMockRule.stubFor(get(urlEqualTo("/test")).willReturn(aResponse().withBody(newBody).withStatus(200)));
 
-        List<EveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(2, shouldBeCached.size());
     }
 
@@ -70,13 +71,13 @@ public class CachedExternalQueryServiceTest {
 
         URI url = URI.create("http://localhost:" + wireMockRule.port() + "/test");
         CachedExternalQueryService queryService = new CachedExternalQueryService(new MemoryCache());
-        List<EveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(3, locations.size());
 
         // If we ignore the error result code then we will have 2 locations instead of 3
         wireMockRule.stubFor(get(urlEqualTo("/test")).willReturn(aResponse().withBody(newBody).withStatus(500)));
 
-        List<EveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(3, shouldBeCached.size());
     }
 
@@ -86,13 +87,24 @@ public class CachedExternalQueryServiceTest {
 
         URI url = URI.create("http://localhost:" + wireMockRule.port() + "/test");
         CachedExternalQueryService queryService = new CachedExternalQueryService(new MemoryCache());
-        List<EveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> locations = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(3, locations.size());
 
         // This should not parse so we should reuse the cached file even though it is old
         wireMockRule.stubFor(get(urlEqualTo("/test")).willReturn(aResponse().withBody("<asjdlksak").withStatus(500)));
 
-        List<EveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
+        List<XmlApiEveLocation> shouldBeCached = queryService.get("test", ResponseParsers::parseLocations, checker, url).get();
         assertEquals(3, shouldBeCached.size());
+    }
+
+    @Test
+    public void testSurvivesIfEverythingFails() throws IOException {
+        wireMockRule.stubFor(get(urlEqualTo("/test")).willReturn(aResponse().withBody("<asjdlksak").withStatus(500)));
+
+        URI url = URI.create("http://localhost:" + wireMockRule.port() + "/test");
+
+        CachedExternalQueryService queryService = new CachedExternalQueryService(new MemoryCache());
+
+        assertEquals(Optional.empty(), queryService.get("test", ResponseParsers::parseLocations, checker, url));
     }
 }

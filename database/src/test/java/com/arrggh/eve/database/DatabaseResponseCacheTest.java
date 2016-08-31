@@ -1,5 +1,6 @@
 package com.arrggh.eve.database;
 
+import com.arrggh.eve.database.dao.cache.ICacheDao;
 import com.arrggh.eve.utilities.queries.CachedResponse;
 import liquibase.exception.LiquibaseException;
 import org.junit.Test;
@@ -13,8 +14,8 @@ import static org.junit.Assert.assertEquals;
 public class DatabaseResponseCacheTest {
     @Test
     public void testBasicCacheBehaviour() throws SQLException, LiquibaseException {
-        EveDatabase database = new EveDatabase();
-        database.execute(new DatabaseSchemaUpdator());
+        DatabaseConnection database = new DatabaseConnection();
+        database.executeQuery(new DatabaseSchemaUpdator());
 
         ICacheDao cacheDao = database.getDao(ICacheDao.class);
 
@@ -25,5 +26,8 @@ public class DatabaseResponseCacheTest {
 
         assertEquals(Optional.empty(), cache.get("missing"));
         assertEquals(response, cache.get("test").get());
+
+        cache.put("test", Optional.empty());
+        assertEquals(Optional.empty(), cache.get("test"));
     }
 }

@@ -24,7 +24,7 @@ public class XmlExpiryTimeCalculator implements Function<String, Instant> {
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
-            Element cachedUntil = document.getRootElement().getChild("result").getChild("cachedUntil");
+            Element cachedUntil = document.getRootElement().getChild("cachedUntil");
 
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
             LocalDateTime cachedTime = LocalDateTime.parse(cachedUntil.getTextNormalize(), formatter);

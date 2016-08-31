@@ -1,7 +1,7 @@
 package com.arrggh.eve.api.crest.parsers;
 
-import com.arrggh.eve.api.crest.responses.eve.MarketHistory;
-import com.arrggh.eve.api.crest.responses.eve.MarketOrders;
+import com.arrggh.eve.api.crest.responses.eve.CrestApiMarketHistory;
+import com.arrggh.eve.api.crest.responses.eve.CrestApiMarketOrders;
 import com.arrggh.eve.utilities.exceptions.ParserException;
 import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
@@ -28,22 +28,22 @@ public class ResponseParsersTest {
 
     @Test
     public void testParseMarketOrdersValid() throws Exception {
-        assertEquals(82, ResponseParsers.parseMarketOrders(getValidFileContents(MarketOrders.class, "market-orders.json")).getItems().size());
+        assertEquals(82, ResponseParsers.parseMarketOrders(getValidFileContents(CrestApiMarketOrders.class, "market-orders.json")).getItems().size());
     }
 
     @Test(expected = ParserException.class)
     public void testParseMarketOrdersInvalid() throws Exception {
-        ResponseParsers.parseMarketOrders(getInvalidFileContents(MarketOrders.class, "market-orders.json"));
+        ResponseParsers.parseMarketOrders(getInvalidFileContents(CrestApiMarketOrders.class, "market-orders.json"));
     }
 
     @Test
     public void testParseMarketHistoryValid() throws Exception {
-        assertEquals(420, ResponseParsers.parseMarketHistory(getValidFileContents(MarketHistory.class, "market-history.json")).getItems().size());
+        assertEquals(420, ResponseParsers.parseMarketHistory(getValidFileContents(CrestApiMarketHistory.class, "market-history.json")).getItems().size());
     }
 
     @Test(expected = ParserException.class)
     public void testParseMarketHistoryInvalid() throws Exception {
-        ResponseParsers.parseMarketHistory(getInvalidFileContents(MarketHistory.class, "market-history.json"));
+        ResponseParsers.parseMarketHistory(getInvalidFileContents(CrestApiMarketHistory.class, "market-history.json"));
     }
 
 }

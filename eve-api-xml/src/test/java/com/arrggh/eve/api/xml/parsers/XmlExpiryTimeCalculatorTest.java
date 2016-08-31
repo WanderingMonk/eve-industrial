@@ -9,8 +9,8 @@ import static org.junit.Assert.assertEquals;
 public class XmlExpiryTimeCalculatorTest {
     private final static XmlExpiryTimeCalculator rvc = new XmlExpiryTimeCalculator();
 
-    private static final String BEFORE = "<eveapi><result><cachedUntil>";
-    private static final String AFTER = "</cachedUntil></result></eveapi>";
+    private static final String BEFORE = "<eveapi><result></result><cachedUntil>";
+    private static final String AFTER = "</cachedUntil></eveapi>";
 
     @Test
     public void testInvalidDate() {

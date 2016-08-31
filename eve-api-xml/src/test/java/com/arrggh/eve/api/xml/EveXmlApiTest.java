@@ -1,12 +1,12 @@
 package com.arrggh.eve.api.xml;
 
-import com.arrggh.eve.api.xml.authentication.XmlApiKey;
+import com.arrggh.eve.model.account.XmlApiKey;
 import com.arrggh.eve.utilities.queries.LocalhostQueryUriBuilder;
-import com.arrggh.eve.api.xml.responses.account.EveCharacter;
-import com.arrggh.eve.api.xml.responses.character.CharacterIndustryJob;
-import com.arrggh.eve.api.xml.responses.character.EveLocation;
-import com.arrggh.eve.api.xml.responses.character.OwnedAsset;
-import com.arrggh.eve.api.xml.responses.character.OwnedBlueprint;
+import com.arrggh.eve.api.xml.responses.account.XmlApiCharacter;
+import com.arrggh.eve.api.xml.responses.character.XmlApiCharacterIndustryJob;
+import com.arrggh.eve.api.xml.responses.character.XmlApiEveLocation;
+import com.arrggh.eve.api.xml.responses.character.XmlApiOwnedAsset;
+import com.arrggh.eve.api.xml.responses.character.XmlApiOwnedBlueprint;
 import com.arrggh.eve.utilities.cache.MemoryCache;
 import com.arrggh.eve.utilities.queries.CachedExternalQueryService;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
@@ -28,24 +28,14 @@ public class EveXmlApiTest {
     @Rule
     public WireMockRule wireMockRule = new WireMockRule(options().dynamicPort());
 
-    private static final XmlApiKey key = XmlApiKey.builder().name("name").keyId("key").verificationCode("code").build();
+    private static final XmlApiKey key = XmlApiKey.builder().keyId("key").verificationCode("code").build();
 
     public EveXmlApiTest() throws IOException {
-        assetsBody = IOUtils.toString(OwnedAsset.class.getResourceAsStream("assets.xml"), "utf-8");
-        blueprintBody = IOUtils.toString(OwnedBlueprint.class.getResourceAsStream("blueprints.xml"), "utf-8");
-        industryJobsBody = IOUtils.toString(CharacterIndustryJob.class.getResourceAsStream("industry-jobs.xml"), "utf-8");
-        locationBody = IOUtils.toString(EveLocation.class.getResourceAsStream("locations.xml"), "utf-8");
-        charactersBody = IOUtils.toString(EveCharacter.class.getResourceAsStream("characters.xml"), "utf-8");
-    }
-
-    @Test
-    public void testGetAccount() {
-        EveXmlApi api = buildEveXmlApi();
-
-        String url = "/account/Characters.xml.aspx?keyID=key&vCode=code";
-        wireMockRule.stubFor(get(urlEqualTo(url)).willReturn(aResponse().withBody(assetsBody).withStatus(200)));
-
-        api.getAccount(key);
+        assetsBody = IOUtils.toString(XmlApiOwnedAsset.class.getResourceAsStream("assets.xml"), "utf-8");
+        blueprintBody = IOUtils.toString(XmlApiOwnedBlueprint.class.getResourceAsStream("blueprints.xml"), "utf-8");
+        industryJobsBody = IOUtils.toString(XmlApiCharacterIndustryJob.class.getResourceAsStream("industry-jobs.xml"), "utf-8");
+        locationBody = IOUtils.toString(XmlApiEveLocation.class.getResourceAsStream("locations.xml"), "utf-8");
+        charactersBody = IOUtils.toString(XmlApiCharacter.class.getResourceAsStream("characters.xml"), "utf-8");
     }
 
     @Test

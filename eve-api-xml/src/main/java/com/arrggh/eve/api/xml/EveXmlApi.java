@@ -1,14 +1,13 @@
 package com.arrggh.eve.api.xml;
 
-import com.arrggh.eve.api.xml.authentication.EveAccount;
-import com.arrggh.eve.api.xml.authentication.XmlApiKey;
 import com.arrggh.eve.api.xml.parsers.ResponseParsers;
 import com.arrggh.eve.api.xml.parsers.XmlExpiryTimeCalculator;
-import com.arrggh.eve.api.xml.responses.account.EveCharacter;
-import com.arrggh.eve.api.xml.responses.character.CharacterIndustryJob;
-import com.arrggh.eve.api.xml.responses.character.EveLocation;
-import com.arrggh.eve.api.xml.responses.character.OwnedAsset;
-import com.arrggh.eve.api.xml.responses.character.OwnedBlueprint;
+import com.arrggh.eve.api.xml.responses.account.XmlApiCharacter;
+import com.arrggh.eve.api.xml.responses.character.XmlApiCharacterIndustryJob;
+import com.arrggh.eve.api.xml.responses.character.XmlApiEveLocation;
+import com.arrggh.eve.api.xml.responses.character.XmlApiOwnedAsset;
+import com.arrggh.eve.api.xml.responses.character.XmlApiOwnedBlueprint;
+import com.arrggh.eve.model.account.XmlApiKey;
 import com.arrggh.eve.utilities.queries.CachedExternalQueryService;
 import com.arrggh.eve.utilities.queries.QueryUriBuilder;
 
@@ -28,42 +27,34 @@ public class EveXmlApi {
         this.responseCache = responseCache;
     }
 
-    public EveAccount getAccount(XmlApiKey xmlApiKey) {
-        EveAccount.EveAccountBuilder builder = EveAccount.builder();
-        builder.name(xmlApiKey.getName());
-        builder.characters(getCharacterList(xmlApiKey));
-        return builder.build();
-    }
-
-
-    public List<EveCharacter> getCharacterList(XmlApiKey xmlApiKey) {
+    public List<XmlApiCharacter> getCharacterList(XmlApiKey xmlApiKey) {
         String key = "authorisations/" + xmlApiKey.getKeyId() + ".xml";
         URI uri = queryUriBuilder.buildUrl("/account/Characters.xml.aspx", "keyID", xmlApiKey.getKeyId(), "vCode", xmlApiKey.getVerificationCode());
-        return returnIfPresent( responseCache.get(key, ResponseParsers::parseCharacterList, expiryTimeCalculator, uri));
+        return returnIfPresent(responseCache.get(key, ResponseParsers::parseCharacterList, expiryTimeCalculator, uri));
     }
 
-    public List<CharacterIndustryJob> getIndustryJobs(XmlApiKey xmlApiKey, String characterId) {
+    public List<XmlApiCharacterIndustryJob> getIndustryJobs(XmlApiKey xmlApiKey, String characterId) {
         String key = "character/" + characterId + "/industry-jobs.xml";
         URI uri = queryUriBuilder.buildUrl("/char/IndustryJobs.xml.aspx", "keyID", xmlApiKey.getKeyId(), "vCode", xmlApiKey.getVerificationCode(), "characterID", characterId);
-        return returnIfPresent( responseCache.get(key, ResponseParsers::parseIndustryJobs, expiryTimeCalculator, uri));
+        return returnIfPresent(responseCache.get(key, ResponseParsers::parseIndustryJobs, expiryTimeCalculator, uri));
     }
 
-    public List<OwnedBlueprint> getBlueprints(XmlApiKey xmlApiKey, String characterId) {
+    public List<XmlApiOwnedBlueprint> getBlueprints(XmlApiKey xmlApiKey, String characterId) {
         String key = "character/" + characterId + "/blueprints.xml";
         URI uri = queryUriBuilder.buildUrl("/char/Blueprints.xml.aspx", "keyID", xmlApiKey.getKeyId(), "vCode", xmlApiKey.getVerificationCode(), "characterID", characterId);
-        return returnIfPresent( responseCache.get(key, ResponseParsers::parseBlueprints, expiryTimeCalculator, uri));
+        return returnIfPresent(responseCache.get(key, ResponseParsers::parseBlueprints, expiryTimeCalculator, uri));
     }
 
-    public List<OwnedAsset> getAssets(XmlApiKey xmlApiKey, String characterId) {
+    public List<XmlApiOwnedAsset> getAssets(XmlApiKey xmlApiKey, String characterId) {
         String key = "character/" + characterId + "/assets.xml";
         URI uri = queryUriBuilder.buildUrl("/char/AssetList.xml.aspx", "keyID", xmlApiKey.getKeyId(), "vCode", xmlApiKey.getVerificationCode(), "characterID", characterId, "flat", "1");
-        return returnIfPresent( responseCache.get(key, ResponseParsers::parseAssets, expiryTimeCalculator, uri));
+        return returnIfPresent(responseCache.get(key, ResponseParsers::parseAssets, expiryTimeCalculator, uri));
     }
 
-    public List<EveLocation> getLocations(XmlApiKey xmlApiKey, String characterId, String locationId) {
+    public List<XmlApiEveLocation> getLocations(XmlApiKey xmlApiKey, String characterId, String locationId) {
         String key = "character/" + characterId + "/locations/" + locationId + ".xml";
         URI uri = queryUriBuilder.buildUrl("/char/Locations.xml.aspx", "keyID", xmlApiKey.getKeyId(), "vCode", xmlApiKey.getVerificationCode(), "characterID", characterId, "ids", locationId);
-        return returnIfPresent( responseCache.get(key, ResponseParsers::parseLocations, expiryTimeCalculator, uri));
+        return returnIfPresent(responseCache.get(key, ResponseParsers::parseLocations, expiryTimeCalculator, uri));
     }
 
     private static <T> List<T> returnIfPresent(Optional<List<T>> optional) {

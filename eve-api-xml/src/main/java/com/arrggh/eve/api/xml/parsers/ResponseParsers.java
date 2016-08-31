@@ -1,10 +1,10 @@
 package com.arrggh.eve.api.xml.parsers;
 
-import com.arrggh.eve.api.xml.responses.account.EveCharacter;
-import com.arrggh.eve.api.xml.responses.character.CharacterIndustryJob;
-import com.arrggh.eve.api.xml.responses.character.EveLocation;
-import com.arrggh.eve.api.xml.responses.character.OwnedAsset;
-import com.arrggh.eve.api.xml.responses.character.OwnedBlueprint;
+import com.arrggh.eve.api.xml.responses.account.XmlApiCharacter;
+import com.arrggh.eve.api.xml.responses.character.XmlApiCharacterIndustryJob;
+import com.arrggh.eve.api.xml.responses.character.XmlApiEveLocation;
+import com.arrggh.eve.api.xml.responses.character.XmlApiOwnedAsset;
+import com.arrggh.eve.api.xml.responses.character.XmlApiOwnedBlueprint;
 import com.arrggh.eve.utilities.exceptions.ParserException;
 import org.jdom2.Document;
 import org.jdom2.Element;
@@ -21,15 +21,15 @@ import static com.arrggh.eve.utilities.XmlUtilities.getLong;
 
 
 public interface ResponseParsers {
-    static List<EveCharacter> parseCharacterList(String text) {
-        List<EveCharacter> results = new LinkedList<>();
+    static List<XmlApiCharacter> parseCharacterList(String text) {
+        List<XmlApiCharacter> results = new LinkedList<>();
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
 
             List<Element> rows = document.getRootElement().getChild("result").getChild("rowset").getChildren("row");
             for (Element row : rows) {
-                EveCharacter.EveCharacterBuilder builder = EveCharacter.builder();
+                XmlApiCharacter.XmlApiCharacterBuilder builder = XmlApiCharacter.builder();
 
                 builder.id(row.getAttributeValue("characterID"));
                 builder.name(row.getAttributeValue("name"));
@@ -49,15 +49,15 @@ public interface ResponseParsers {
         return results;
     }
 
-    static List<CharacterIndustryJob> parseIndustryJobs(String text) {
-        List<CharacterIndustryJob> results = new LinkedList<>();
+    static List<XmlApiCharacterIndustryJob> parseIndustryJobs(String text) {
+        List<XmlApiCharacterIndustryJob> results = new LinkedList<>();
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
 
             List<Element> rows = document.getRootElement().getChild("result").getChild("rowset").getChildren("row");
             for (Element row : rows) {
-                CharacterIndustryJob.CharacterIndustryJobBuilder builder = CharacterIndustryJob.builder();
+                XmlApiCharacterIndustryJob.XmlApiCharacterIndustryJobBuilder  builder = XmlApiCharacterIndustryJob.builder();
 
                 builder.jobID(getLong(row, "jobID"));
                 builder.installerID(getLong(row, "installerID"));
@@ -97,15 +97,15 @@ public interface ResponseParsers {
         return results;
     }
 
-    static List<OwnedBlueprint> parseBlueprints(String text) {
-        List<OwnedBlueprint> results = new LinkedList<>();
+    static List<XmlApiOwnedBlueprint> parseBlueprints(String text) {
+        List<XmlApiOwnedBlueprint> results = new LinkedList<>();
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
 
             List<Element> rows = document.getRootElement().getChild("result").getChild("rowset").getChildren("row");
             for (Element row : rows) {
-                OwnedBlueprint.OwnedBlueprintBuilder builder = OwnedBlueprint.builder();
+                XmlApiOwnedBlueprint.XmlApiOwnedBlueprintBuilder builder = XmlApiOwnedBlueprint.builder();
 
                 builder.itemId(getLong(row, "itemID"));
                 builder.typeName(row.getAttributeValue("typeName"));
@@ -126,15 +126,15 @@ public interface ResponseParsers {
         return results;
     }
 
-    static List<OwnedAsset> parseAssets(String text) {
-        List<OwnedAsset> results = new LinkedList<>();
+    static List<XmlApiOwnedAsset> parseAssets(String text) {
+        List<XmlApiOwnedAsset> results = new LinkedList<>();
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
 
             List<Element> rows = document.getRootElement().getChild("result").getChild("rowset").getChildren("row");
             for (Element row : rows) {
-                OwnedAsset.OwnedAssetBuilder builder = OwnedAsset.builder();
+                XmlApiOwnedAsset.XmlApiOwnedAssetBuilder builder = XmlApiOwnedAsset.builder();
 
                 builder.itemID(getLong(row, "itemID"));
                 builder.locationID(getLong(row, "locationID"));
@@ -153,15 +153,15 @@ public interface ResponseParsers {
         return results;
     }
 
-    static List<EveLocation> parseLocations(String text) {
-        List<EveLocation> results = new LinkedList<>();
+    static List<XmlApiEveLocation> parseLocations(String text) {
+        List<XmlApiEveLocation> results = new LinkedList<>();
         try {
             SAXBuilder jdomBuilder = new SAXBuilder();
             Document document = jdomBuilder.build(new StringReader(text));
 
             List<Element> rows = document.getRootElement().getChild("result").getChild("rowset").getChildren("row");
             for (Element row : rows) {
-                EveLocation.EveLocationBuilder builder = EveLocation.builder();
+                XmlApiEveLocation.XmlApiEveLocationBuilder builder = XmlApiEveLocation.builder();
 
                 builder.itemID(getLong(row, "itemID"));
                 builder.itemName(row.getAttributeValue("itemName"));
